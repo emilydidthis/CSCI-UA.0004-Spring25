@@ -14,7 +14,8 @@ schedule:
           type: download
       - topics: Unix
         due:
-        - "Ed Lesson: Basic Unix Commands"
+        - "Participate in the Classroom Agreements [thread](https://edstem.org/us/courses/65705/discussion/5213617) on Ed"
+        - "[Ed Lesson: Basic Unix Commands](https://edstem.org/us/courses/65705/lessons/116471/)"
         - "Chapter 2: How the Web Works"
         # files:
         # - name: operating-systems.pdf
