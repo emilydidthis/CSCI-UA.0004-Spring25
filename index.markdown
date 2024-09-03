@@ -59,9 +59,9 @@ Tuesday, October 22 | 3:30PM-4:45PM | In-class
 Thursday, December 19 | 2:00PM-3:15PM | [Room TBA](https://cs.nyu.edu/dynamic/courses/exams/?level=UA)
 
 ## Attendance + Participation
-Due to the sequential nature of this course, consistent and punctual in-person attendance is essential and will be factored into your grade. If you plan on missing a class due to religious observance, military commitment or an NYU athletic commitment, please fill out the [short term absence form](https://docs.google.com/forms/d/e/1FAIpQLScLLgGz71_02_Oq2bVUdqpt1Vr3j3j2Y60HghS7h7DdvVv1zw/viewform), as these are considered excused absences as per NYU attendance policy. Filling out the form must be done prior to the absence and cannot be filled out retroactively. If you are feeling ill, please notify me the day of via Ed by posting a private thread under the Admin category.
+Due to the sequential nature of this course, consistent and punctual in-person attendance is essential and will be factored into your grade. If you plan on missing a class due to religious observance, military commitment or an NYU athletic commitment, please fill out the [short term absence form]({{site.absence-form}}), as these are considered excused absences as per NYU attendance policy. Filling out the form must be done prior to the absence and cannot be filled out retroactively. If you are feeling ill, please notify me the day of via Ed by posting a private thread under the Admin category.
 
-Participation is also a significant part of your grade. The best way to participate, aside from attending class, is to be active on our [Ed Discussion]({{ site.ed }}) board. I expect you to engage at least five times throughout the semester. This can be through asking questions, answering questions from your peers, or responding to the discussion questions I post. 
+Participation is also a significant part of your grade. The best way to participate, aside from attending class, is to be active on our [Ed Discussion]({{ site.ed }}) board. This can be through asking questions, answering questions from your peers, or responding to the discussion questions I post. 
 
 
 <!-- ## i6 Account

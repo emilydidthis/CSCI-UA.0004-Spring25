@@ -32,7 +32,7 @@ brightspace: "https://brightspace.nyu.edu/d2l/home/403055"
 common_syllabus: "https://cs.nyu.edu/courses/fall24/CSCI-UA.0004-004/common-syllabus/"
 ed: "https://edstem.org/us/courses/65705/discussion/"
 office-hours: "https://calendar.app.google/AejUJxbT2BVqgGaZ7"
-absence-form: 
+absence-form: "https://forms.gle/s4DM6yL4s4SUnkfSA"
 
 
 port: 4999
