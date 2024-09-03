@@ -1,0 +1,58 @@
+---
+
+layout: assignments
+title: "Assignment #4"
+assign-date: Oct 1
+due-date: Oct 8
+topic: Raster Graphics
+live: false
+
+---
+
+## Raster Graphics
+In this assignment, you will decontextualize an image of yourself and display it in the browser window on top of a full background image.
+
+<div class="section-break"><br></div>
+
+### Foreground Image
+Using image editing software, crop and cut an image of yourself out of its original context. Try to do this as cleanly as possible so that the edges of the image do not appear jagged or irregular. When you’ve finished editing, export the image as a PNG with transparency at three different sizes. The width of the exported PNG files should be 1440 pixels, 960 pixels, and 480 pixels. This will allow you to offer different resolutions of your image for different displays. The height of the image can vary accordingly but should be no less than half and no more than twice the width. Be sure to start with an image file large enough to work with at this scale.
+
+<div class="section-break"><br></div>
+
+### Background Image
+Create a background image for your web page that provides a new context for the image you cut out of yourself. This image should be formatted to 1920 × 1920 pixels (square) and exported as a high-quality JPG. This could be an Arctic landscape, deep under the sea, somewhere in space—it’s up to you! Feel free to modify the image using (but not limited to) editing techniques we’ve explored in class.
+
+<div class="section-break"><br></div>
+
+### Web Page
+Create a new “index.html” file for your project. Use the `<img>` element to display your foreground image on the page. The `<img>` element should include `src`, `alt`, `width`, and `height` attributes that correspond to the 480 pixel image. Use the `<img>` element’s `srcset` attribute to offer your image at multiple resolutions: 480, 960, and 1440 pixels wide. Use CSS positioning other than static to place the image of you along one side of the browser window.
+
+Add the background image to the page with CSS so that it covers the browser window seamlessly and proportionally. Add a caption or title to the page with HTML paragraph or heading text that describes the concept for your image. Style the text with CSS and, if necessary, add a background color so that it’s legible on top of other imagery.
+
+<div class="section-break"><br></div>
+
+### Publishing Your Web Page
+Create a new directory called “images” on your i6 account. Publish the web page along with your raster graphic image files to this directory. Your project should be available at: i6.cims.nyu.edu/~netid/images/. Test your files again in the web browser once they are live on the server.
+
+Create a link from the “Raster Graphics” line of your [assignments directory]({{ site.url }}{{ site.baseurl }}/assignments/01.html) to your new web page.
+
+<div class="section-break"><br></div>
+
+### Submitting Your Assignment
+Submit the following via [Ed]({{ site.ed }}).
+
+- The URL to your new web page that displays the image on i6
+- A compressed archive containing your PNG files, JPG file, HTML, and CSS
+Please note that you are required to submit files along with the URL in order to receive credit for your work.
+
+<div class="section-break"><br></div>
+
+### Grading
+This assignment is worth 10 points.
+
+- A recognizable image of the student, skillfully decontextualized from its original context and exported as three PNG files with transparency at 1440, 960, and 480 pixels wide (3 points)
+- A background image of 1920 × 1920 pixels in JPG format (1 point)
+- A new web page that displays the PNG and JPG files on i6 along with descriptive paragraph or heading text (2 points)
+- The web page’s `<img>` element should include `src`, `srcset`, `width`, `height`, and `alt` attributes that accurately display and correspond to the image files (2 points)
+- The foreground image should be placed along one side of the browser window with non-static CSS positioning (1 point)
+- The background image should cover the browser window seamlessly and proportionally (1 point)

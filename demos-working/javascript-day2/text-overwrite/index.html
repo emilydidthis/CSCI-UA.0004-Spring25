@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Changing Text Content with JavaScript</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+      body {
+        font-family: Quicksand;
+        font-size: 2em;
+      }
+
+      #first {
+        color: red;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p id="first">This course provides a comprehensive foundation in design and code for the open web. Primary topics include HTML markup, CSS style, web graphics, and browser-based interactivity.</p>
+
+    <p>Computer principles, accessibility, and historical context are also woven into class discussion.</p>
+
+    <p>In addition to coding with HTML, CSS, and JavaScript, various software applications are used to create media optimized for the web.</p>
+
+    <p><a href="https://www.nyu.edu/">Introduction to Web Design</a></p>
+
+
+    <!-- Embedded Javascript -->
+    <script>
+      // create a reference to the first paragraph
+      let first = document.getElementById("first");
+      console.log(first);
+      // change the text inside
+      first.textContent = "This text overwrites what was originally coded in the paragraph.";
+      first.style.color = "blue";
+
+
+      // use a DOM query that returns a Node list
+      let paragraphs = document.querySelectorAll("p"); // list of all paragraphs
+     
+      console.log(paragraphs);
+
+      let lastParagraph = paragraphs[3]; // last/fourth paragraph
+      // paragraphs[0] -> first paragraph
+      // paragraphs[1] -> second paragraph
+      // paragraphs[2] -> third paragraph
+      // paragraphs[3] -> fourth paragraph
+      console.log(lastParagraph);
+      lastParagraph.innerHTML = "<a href='https://www.google.com'>Google</a>";
+    </script>
+  </body>
+</html>

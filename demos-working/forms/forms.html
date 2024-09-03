@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Web Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> 
+  </head>
+  <style>
+    label {
+      display: block;
+    }
+
+  </style>
+  <body>
+    <form action="https://formspree.io/f/xknllbgl" method="POST">
+      <label>
+        First Name:
+        <input type="text" name="first-name" required>
+      </label>
+      <label>
+        Last Name:
+        <input type="text" name="last-name" required>
+      </label>
+      <label>
+        Email:
+        <input type="email" name="email" required>
+      </label>
+      <label>
+        Message:
+        <textarea name="message" placeholder="Please tell me what you think about the class."></textarea>
+      </label>
+
+      <fieldset>
+        <legend>What year are you?</legend>
+        <label>
+          <input type="radio" name="year" value="freshman">
+          Freshman
+        </label>
+        <label>
+          <input type="radio" name="year" value="sophomore">
+          Sophomore
+        </label>
+        <label>
+          <input type="radio" name="year" value="junior">
+          Junior
+        </label>
+        <label>
+          <input type="radio" name="year" value="senior">
+          Senior
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <legend>What topics did you like this semester? </legend>
+        <label>
+          <input type="checkbox" name="topics" value="unix">
+          Unix
+        </label>
+        <label>
+          <input type="checkbox" name="topics" value="html">
+          HTML
+        </label>
+        <label>
+          <input type="checkbox" name="topics" value="css">
+          CSS
+        </label>
+        <label>
+          <input type="checkbox" name="topics" value="webgraphics">
+          Web Graphics
+        </label>
+      </fieldset>
+
+      <label>
+        Will you continue to make websites after this class?
+        <select>
+          <option>Yes!</option>
+          <option>No</option>
+          <option>Maybe</option>
+        </select>
+      </label>
+      <input type="submit" value="Send">
+    </form>
+  
+  </body>
+</html>

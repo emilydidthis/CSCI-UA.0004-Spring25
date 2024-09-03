@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Media Queries</title>
+    <style>
+      /* Mobile-first style rule*/
+      body {
+        background-color: cyan;
+      }
+
+      /* Tablet style rule*/
+      @media (min-width:768px){
+        body {
+          background-color: magenta;
+          font-size: 1.5em;
+        }
+      }
+
+      /* Desktop style rule*/
+      @media (min-width:1024px){
+        body {
+          background-color: orange;
+          font-size: 2em;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>Media queries can be used to adapt the design of your page for different viewing experiences.</p>
+  </body>
+
+</html>

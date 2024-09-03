@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Random Numbers</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    <style>
+      h1, p {font-family: Quicksand;}
+
+      /* body {
+        background-color: hsl(30, 100%, 50%);
+      } */
+    </style>
+  </head>
+
+  <body>
+    <img id="coin" src="heads.png" alt="Coin" width="100" height="100">
+    <button id="button">Flip Coin</button>
+    <!-- Embedded Javascript -->
+    <script>
+      // get a reference to the button
+      // DOM Event Handler
+      // let button = document.querySelector("#button");
+      // button.onclick = coinFlip;
+
+      // Event Listener
+      let button = document.querySelector("#button");
+      button.addEventListener("click", coinFlip);
+      button.addEventListener("click", randomBgColor);
+
+      function coinFlip(){ // defining function
+        console.log("coin is flipping!");
+        // creating a random number between 1 and 10
+        let random = Math.floor(Math.random() * 10) + 1;
+        console.log(random);
+
+        // create a reference to the img
+        //let coin = document.getElementById("coin");
+        let coin = document.querySelector("#coin");
+        
+        // change the source of the image depending on #
+        if (random > 5){
+          coin.src = "heads.png";
+        } else {
+          coin.src = "tails.png";
+        }
+      }
+
+      function randomBgColor(){ // defining function
+        // create a random color using HSL
+        // hue, saturation, lightness
+        // hue number is between 0 and 359
+        let randomHue = Math.floor(Math.random() * 361);
+        console.log(randomHue);
+        //console.log("hsl(randomHue, 100%, 50%");
+        let randomColor = "hsl(" + randomHue + ", 100%, 50%)";
+        
+        // creating a reference to the body element
+        let body = document.querySelector("body");
+        body.style.backgroundColor = randomColor;
+      }
+
+      coinFlip(); // calling function
+      randomBgColor(); // calling function
+      
+    </script> 
+  </body>
+</html>

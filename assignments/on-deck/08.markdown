@@ -1,0 +1,60 @@
+---
+
+layout: assignments
+title: "Assignment #8"
+assign-date: Nov 12
+due-date: Nov 26
+topic: JavaScript
+live: false
+
+---
+
+## JavaScript
+In this assignment you will use JavaScript to add interactivity to your responsive website from [Assignment 7]({{ site.url }}{{ site.baseurl }}/assignments/07.html).
+
+<div class="section-break"><br></div>
+
+### Interactivity
+Create a new version of your website from Assignment 7, about a topic of academic interest. Make revisions and improvements to the site as necessary—you know more about web design now. Using JavaScript, add a new layer of interactivity to your pages. Your JavaScript should be externally applied in a .js document; you do not need to link the same script to all pages of your website.
+
+Include at least two DOM queries to access elements on the page. To make your page feel more interactive, write at least two JavaScript functions that are called in response to DOM events. One of these functions should update page content—such as a change to text or images—and one of the functions should change a CSS property.
+
+<div class="section-break"><br></div>
+
+### Day of the Week
+In addition to the behavior described above, use the JavaScript Date object to update some aspect of the page for every day of the week. For example, a different image could be displayed, a different style rule could be applied, or different text could appear. This should apply to a different element than what you changed interactively with DOM events and change for each of the seven days of the week. To that end, you will need to write one or more decision structures with conditional statements such as `if` and `else if`.
+
+<div class="section-break"><br></div>
+
+### Extra Credit
+Optionally, for extra credit, create a responsive navigation bar that gives visitors control over its visibility. First, create a simple, custom SVG icon for the user to interact with on mobile devices with a smaller viewport (such as smartphones). When clicked or tapped, this should expand and collapse a menu of options for navigating the site. When the viewport is larger (such as on laptop or desktop computers), the menu should always be visible and the SVG icon hidden. In order to be considered for extra credit, your submission must also be received on time.
+
+<div class="section-break"><br></div>
+
+### Publishing Your Website
+Upload your website to the i6 Unix server in its own directory. Test your files again once they are live on the Web server to make sure they are accessible. Update your assignments directory to link to this page.
+
+<div class="section-break"><br></div>
+
+### Submitting Your Assignment
+Publish your project on the i6 web server and submit the following via [NYU Ed]({{ site.ed }}).
+
+- The URL to your website on i6
+- A compressed archive containing all the files (HTML, CSS, JavaScript, and images) of your web page  
+
+Please note that you are required to submit files along with URLs in order to receive credit for your work.
+
+<div class="section-break"><br></div>
+
+### Grading
+This assignment is worth 10 points.
+
+- A revised version of the previous website with JavaScript interactivity, externally applied in a .js document (2 points)
+- At least two DOM queries (1 point)
+- At least two functions that are called with DOM events (2 points)
+- One of the functions should update page content and one of the functions should change a CSS property (2 points)
+- The JavaScript Date object, used to identify the day of the week (1 point)
+- A JavaScript decision structure to modify another element of the web page uniquely for each day of the week (2 points)
+- Assignment is submitted on time and includes a responsive nav bar with a custom SVG icon. (3 points extra credit)
+
+*Points may be deducted for improperly formed HTML elements, CSS style rules, or JavaScript code.*

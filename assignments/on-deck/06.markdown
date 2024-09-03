@@ -1,0 +1,64 @@
+---
+
+layout: assignments
+title: "Assignment #6"
+assign-date: Oct 24
+due-date: Nov 5
+topic: Page Layout
+live: false
+
+---
+
+## Page Layout
+In this assignment, you will design and code a new website about a topic of academic interest.
+
+<div class="section-break"><br></div>
+
+### Topic
+Begin by writing or repurposing an original text of at least 400 words—this will be the main content of your new website. Whereas your first website was about you, this one should be about a topic of academic interest, related to your major, minor, or another area of specialized knowledge. Try not to be too broad; the more specific the topic the better. Some examples include a historical figure, a subculture you’re familiar with, a book or film you were influenced by, or a place that you have specific knowledge about. You are welcome to work with a text you’ve already written but it should be your own and it should be at least 400 words.
+
+<div class="section-break"><br></div>
+
+### Design and Layout
+Allow the content of your website to guide decisions you make about its design and layout. Create one external stylesheet for all pages of your site.
+
+Your site should include at least three web pages with a multi-column layout on each page. Include properly-formatted images and appropriately-marked up text and continue to define sections of content with HTML semantic elements. Add a web font to your pages with the CSS `@font-face` rule, or with an `import` or `link`.
+
+Use the CSS Grid Layout Module for the overall layout of each page. Also use the CSS Flexible Box Layout Module (Flexbox) at least once on each page to arrange items along one axis. You can feel free to use the same general layout for every page of the site but you don’t need to.
+
+<div class="section-break"><br></div>
+
+### Accessibility
+It’s important to keep in mind that people access the web in many different ways. Build your pages in a way that creates as few barriers as possible to experiencing your site, regardless of the user’s ability or the device used to access the web. One way to test the accessibility of your site is with a web browser’s [accessibility inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector). These tools do not necessarily catch all accessibility issues but an audit of your site should not indicate any serious issues. If it does, try to resolve them before submitting your assignment.
+
+<div class="section-break"><br></div>
+
+### Publishing Your Page
+Create a new subdirectory on i6 within which to publish your pages. Upload your files (including the HTML, CSS, and image files) to the i6 Unix server with an FTP client. Test your files again in the web browser once they are live on the server.
+
+Create a link from the “Website Layout” line of your assignments directory to the home page of your new website.
+
+<div class="section-break"><br></div>
+
+### Submitting Your Assignment
+Submit the following via [NYU Ed]({{ site.ed }}).
+
+- The URL to the home page of your new website on i6
+- The text content of your website—copied and pasted beneath the URL in the assignment text box
+- All the files of your new website
+
+Please note that you are required to submit files along with URLs in order to receive credit for your work.
+
+<div class="section-break"><br></div>
+
+### Grading
+This assignment is worth 10 points.
+
+- An original text of at least 400 words about a topic of specialized knowledge (1 point)
+- A new website in its own subdirectory; the website should consist of at least three pages with properly-formatted images, appropriately-marked up text, and semantic section elements (3 points)
+- One external stylesheet for all pages of the site; each page is styled with two or more columns of text and/or images (1 point)
+- CSS Grid is applied on at least one page (2 points)
+- CSS Flexbox is applied on at least one page (2 point)
+- A web font is incorporated into the site with the CSS `@font-face` rule, or externally imported/linked. (1 point)
+
+*Points may be deducted for improperly formed HTML elements or CSS style rules.*

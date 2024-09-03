@@ -1,0 +1,104 @@
+---
+layout: assignments
+title: "Assignment #9"
+assign-date: Nov 26
+due-date: Dec 10
+topic: Final Project
+live: false
+---
+
+## Final Project
+In this assignment you will synthesize your knowledge of web design into a new, professionally-oriented website. Potential topics include a portfolio, a social cause, a small business, and an expanded résumé.
+
+<div class="section-break"><br></div>
+
+### Wireframing
+Once you’ve decided what your professionally-oriented website will be about, write a paragraph of at least 100 words describing your topic and how it will be presented on the web.
+
+Next, using a wire-framing tool, like [Figma](https://www.figma.com/design/), create a page layout that represents the design of your next website. This is an opportunity for you to make design decisions before applying them with code. The layout should indicate the placement of text, images, and navigation. You need not concern yourself with specific content at this stage; instead, focus on the arrangement of compositional elements on the page. You’re welcome to use the same general layout for every page of the site; if you choose to vary the layout for different pages, create a separate wireframe for each. When you have completed your wireframe, export it as a PDF.
+
+<div class="section-break"><br></div>
+
+### Content
+Begin building your website by creating a new project directory for its files. Using your wireframe as a guide, code your website with semantic HTML to describe page content. Your website should consist primarily of original content; any images or text that you use from other sources should be credited accordingly.
+
+- There should be semantic text elements on each page, including but not limited to paragraph (`<p>`) and heading (`<h1>`, `<h2>`, etc.) text.
+- There should be semantic section elements on each page, including but not limited to `<main>`, `<header>`, and `<footer>`.
+- Pages should link to each other with “relative” URLs; longer pages should incorporate anchor links.
+- Each page should include properly formatted JPG, PNG, GIF, or SVG images.
+- All `<img>` elements should include `src`, `width`, `height`, and `alt` attributes with appropriate values.
+Responsive raster graphics should be offered in conjunction with the `srcset` attribute and, if appropriate, `sizes` attribute.
+
+Pay close attention to your HTML tags as you code them. You can also check your HTML code using the [W3C Markup Validation Service](https://validator.w3.org/). As a finishing touch, create and apply a 32 × 32 pixel website icon to your pages if you would like to.
+
+<div class="section-break"><br></div>
+
+### Form
+Create one external style sheet and link it to all of your HTML pages. Code a responsive layout for your website with CSS.
+
+- Your style rules should specify font family and font size for paragraph and heading text as well as link states including `link`, `visited`, `hover`, and `active`.
+Add a web font to your pages with the CSS `@font-face` rule.
+- Use the CSS Flexible Box Layout Module (Flexbox) for arranging items along one axis and/or the CSS Grid Layout Module for the overall page structure.
+- The viewport should be set on all HTML pages and the CSS should include at least two `@media` queries: one to optimize the layout for different browser widths and one for the user’s [preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) (i.e. dark mode).
+- Mobile-optimized layout should be limited to one column; desktop layout should include two or more columns.
+
+Allow the content of your website to guide decisions you make about its design.
+
+<div class="section-break"><br></div>
+
+### Interaction
+Using JavaScript, add custom interactivity to your website.
+
+- Your script should include at least two DOM queries.
+- There should be at least one function that is called in response to a DOM event.
+- The function should update page content and/or change CSS properties.
+
+JavaScript should be externally applied in an external .js document.
+
+<div class="section-break"><br></div>
+
+### Accessibility
+Keep in mind that people access the web in many different ways. Build your pages in a way that creates as few barriers as possible to experiencing your site, regardless of the user’s ability or the device used to access the web. One way to test the accessibility of your site is with the browser’s [accessibility inspector](https://developer.mozilla.org/en-US/docs/Tools/Accessibility_inspector). These tools do not necessarily catch all accessibility issues but an audit of your site should not indicate any serious issues. If it does, try to resolve them before submitting your assignment.
+
+<div class="section-break"><br></div>
+
+### Submitting Your Assignment
+Publish your project on the i6 web server and submit the following via [NYU Ed]({{ site.ed }}).
+
+- The text description of your topic and website—copied and pasted in the assignment text box
+- PDF file(s) of your wireframe
+- The URL to your website on i6
+- A compressed archive containing all the files (HTML, CSS, JavaScript, images, and media) of your web page
+
+*Please note that you are required to submit files along with URLs in order to receive credit for your work.*
+
+<div class="section-break"><br></div>
+
+### Grading
+This assignment is worth 15 points.
+
+**Wireframing**  
+- A paragraph of at least 100 words describing a professionally-oriented website topic (1 point)
+- Website wireframe of the page layout (1 point)
+
+**Content**
+- Semantic text elements on each page (0.5 point)
+- There should be semantic section elements on each page (1 point)
+- Pages should link to each other with “relative” URLs; longer pages should incorporate anchor links (1 point)
+- Each page should include properly formatted JPG, PNG, GIF, or SVG images; img elements should include src, width, height, and alt attributes with appropriate values (1 point)
+- Responsive raster graphics should be offered in conjunction with the srcset attribute and, if appropriate, sizes attribute (0.5 point)
+
+**Form**
+- One external stylesheet for the whole site; style rules should specify font family and font size for paragraph and heading text as well as link states (1.5 points)
+- A web font applied with the CSS `@font-face` rule (0.5 point)
+- The CSS Flexible Box Layout Module (Flexbox) for arranging items along one axis and/or the CSS Grid Layout Module for the overall page structure (1.5 points)
+- The viewport should be set on all HTML pages and the CSS should include at least two `@media` queries: one to optimize the layout for different browser widths and one for the user’s preferred color scheme (1.5 points)
+- Mobile-optimized layout should be limited to one column; desktop layout should include two or more columns (1 point)
+
+**Interaction**
+- At least two DOM queries (0.5 point)
+- There should be at least one function that is called in response to a DOM event (1.5 points)
+- The function should update page content and/or change CSS properties (1 point)
+
+
+*Points may be deducted for improperly formed HTML elements, CSS style rules, or JavaScript, as well as obvious accessibility issues.*

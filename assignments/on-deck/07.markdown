@@ -1,0 +1,61 @@
+---
+
+layout: assignments
+title: "Assignment #7"
+assign-date: Nov 5
+due-date: Nov 12
+topic: Responsive Design
+live: false
+
+---
+## Responsive Design
+In this assignment, you will revise your [most recent website]({{ site.url }}{{ site.baseurl }}/assignments/06.html) to make it responsive to characteristics of the viewing experience. With a flexible grid, media queries, and responsive images, you can anticipate and design for a variety of devices.
+
+<div class="section-break"><br></div>
+
+### Fluid Layout
+Fluid layouts are central to responsive design. In contrast to a fixed-width layout, a fluid layout’s page area and its grid resize proportionally to fill the available width of the screen. CSS grid provides the `fr` and `minmax()` units to accomplish this. Percentage values can also be used for horizontal measurements so elements remain proportional at different sizes.
+
+Revise the website you created in the [Page Layout]({{ site.url }}{{ site.baseurl }}/assignments/06.html) assignment to use a flexible grid. Avoid styling elements on the page with fixed widths. Begin with a single-column, mobile-optimized layout appropriate for viewing on smaller screens. The subject matter, layout, and site map should be consistent with the first version of your site. Adaptations, however, are encouraged to make the layout responsive.
+
+<div class="section-break"><br></div>
+
+### Media Queries
+Integrate media queries into your code with the `@media` rule. This will allow you to set “breakpoints” for the layout. Media queries can assess a viewer’s browser width and use that information to determine which styles to use for the page. For example, a three-column layout could be used for desktop viewing, a two-column layout for tablets, and a one-column layout for smartphones. Since you’ll be optimizing your layout for different screen sizes, you should set the viewport on all pages to an initial scale of 1 to prevent smartphones and other devices from scaling pages down.
+
+`<meta name="viewport" content="width=device-width, initial-scale=1.0">`
+
+Having revised your website to begin with a single-column, mobile-optimized layout, media queries can be used to expand the layout to multiple columns for a wider viewing experience. The desktop layout should include two or more columns with the CSS flex or grid layout modules. Structure your HTML code within appropriate sections to position columns alongside each other when appropriate. There should also be a media query for the [user’s preferred color scheme (i.e. dark mode)](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).
+
+<div class="section-break"><br></div>
+
+### Responsive Images
+Making your images flexible is fairly straightforward. Use one of the following style rules to make images scale to fit the size of their container.
+
+`img {max-width: 100%;} or img {width: 100%;}`
+
+The resolution of computer displays also varies across devices. To optimize your raster graphics for screens with higher resolutions, you can offer larger alternates. To that end, create versions at double the width and height of all your standard website images. Rather than scaling up the smaller image (which would result in lower quality), you should work with original image files to create the larger versions. Then, use the HTML `<img>` element’s `srcset` and `sizes` attributes along with the `src` attribute to offer these image alternates.
+
+<div class="section-break"><br></div>
+
+### Publishing Your Website
+Upload your website to the i6 Unix server in its own directory. Test your files again once they are live on the Web server to make sure they are accessible. Update your assignments directory to link to this page.
+
+<div class="section-break"><br></div>
+
+### Submitting Your Assignment
+Submit the following via [NYU Ed]({{ site.ed }}).
+
+- The URL to your website on i6
+- A compressed archive containing all the files of your website
+
+<div class="section-break"><br></div>
+
+### Grading
+This assignment is worth 10 points.
+
+- A completely revised version of the previous website, optimized for mobile and desktop devices (3 points)
+- Relative units such as `fr`, `minmax()`, and percentage should be used for most CSS widths (1 point)
+- The viewport should be set on all pages and the CSS should include at least two `@media` queries: one to optimize the layout for different browser widths and one for the [user’s preferred color scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) (3 points)
+- Desktop layout should include two or more columns with the CSS flex or grid layout modules (1 point)
+- Images should be flexible with higher-resolution versions of all raster graphics offered in conjunction with the HTML srcset and sizes attributes (2 points)
