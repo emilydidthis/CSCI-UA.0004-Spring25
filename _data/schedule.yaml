@@ -7,7 +7,7 @@ schedule:
         - "Nothing"
         files:
         - name: what-is-the-internet.pdf
-          path: /assets/slides/01_Website-Internet.pdf
+          path: /assets/slides/01_website-internet_template.pdf
           type: slides
         - name: "Download: Class Website Files"
           path: /assets/files/class-website.zip
