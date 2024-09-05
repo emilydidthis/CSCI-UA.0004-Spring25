@@ -17,10 +17,10 @@ schedule:
         - "Participate in the Classroom Agreements [thread](https://edstem.org/us/courses/65705/discussion/5213617) on Ed"
         - "[Ed Lesson: Basic Unix Commands](https://edstem.org/us/courses/65705/lessons/116471/)"
         - "Chapter 2: How the Web Works"
-        # files:
-        # - name: operating-systems.pdf
-        #   path: /assets/slides/02_Operating-Systems.pdf
-        #   type: slides
+        files:
+        - name: operating-systems.pdf
+          path: /assets/slides/02_unix_template.pdf
+          type: slides
       
   - week_number: 2
     classes:
