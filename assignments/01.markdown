@@ -11,7 +11,7 @@ category: assignment
 ---
 
 ## Unix
-In this assignment you will create a basic Web page and publish it on a Unix server at i6.cims.nyu.edu/~netid. A step by step video walkthrough is available on [Ed Lessons](https://edstem.org/us/courses/54452/lessons/89677/slides/505192).
+In this assignment you will create a basic Web page and publish it on a Unix server at i6.cims.nyu.edu/~netid. A step by step video walkthrough is available on [Ed Lessons](https://edstem.org/us/courses/65705/lessons/116470/slides/646356).
 
 <div class="section-break"><br></div>
 
