@@ -92,7 +92,7 @@ Next, you will use an SFTP client to transfer your “index.html” file from yo
 
 Here is an example of an FTP client’s login screen. Fill it in as follows but with your own NetID and i6 password and connect using “SFTP.” After logging in, you can upload files to the web server and also download files from the server.
 
-![](https://cs.nyu.edu/courses/fall23/CSCI-UA.0004-004/assets/images/SFTP login from NYU.png)
+![](https://cs.nyu.edu/courses/fall24/CSCI-UA.0004-004/assignments/unix/sftp-login.png login from NYU.png)
 
 Upload the index.html file from your computer to the public_html folder of your i6 account. Once you have uploaded the file, check to make sure your Web page is visible at: i6.cims.nyu.edu/~netid
 
