@@ -34,7 +34,7 @@ schedule:
       - topics: HTML
         due: 
         - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/65705/lessons/116472/slides/646362)"
-        - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/01.html) (step by step walkthrough on Ed)"
+        - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/01.html) (step by step walkthrough on Ed)"
         - "Chapter 5: Marking Up Text"
         # files:
         # - name: HTML-FilePaths.pdf
