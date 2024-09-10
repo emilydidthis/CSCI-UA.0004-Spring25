@@ -28,12 +28,12 @@ schedule:
         due: 
         - "Chapter 4: Creating a Simple Page"
         files:
-        # - name: Unix-HTML.pdf
-        #   path: /assets/slides/03_Unix-HTML.pdf
-        #   type: slides
+        - name: intro-to-html.pdf
+          path: /assets/slides/03_unix_html_template.pdf
+          type: slides
       - topics: HTML
         due: 
-        - "Ed Lesson: HTML Basics"
+        - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/65705/lessons/116472/slides/646362)"
         - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/01.html) (step by step walkthrough on Ed)"
         - "Chapter 5: Marking Up Text"
         # files:
@@ -49,35 +49,35 @@ schedule:
         # - name: "Download: NYC Starter files"
         #   path: /assets/files/nyc-starter-files.zip
         #   type: download
-  # - week_number: 3
-  #   classes:
-  #     - topics: HTML
-  #       due: 
-  #       - "Chapter 6: Adding Links"
-  #       - "Chapter 7: Adding Images"
-  #       files:
-  #       # - name: HTML_workshop.pdf
-  #       #   path: /assets/slides/05_HTML-Workshop.pdf
-  #       #   type: slides
-  #       # - name: "Download: NYC HTML Files"
-  #       #   path: /files/nyc-website-html-starting.zip
-  #       #   type: download
-  #       # - name: NYC Site – Final HTML
-  #       #   path: /demos-completed/nyc-website-html/
-  #       #   type: code
-  #     - topics: CSS
-  #       due:
-  #       - "Ed Lesson: CSS Basics"
-  #       - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/02.html)"
-  #       - "Chapter 11: Introducing Cascadingx Style Sheets"
-  #       - "Chapter 12: Formatting Text"
-  #       # files:
-  #       # - name: CSS-Day01.pdf
-  #       #   path: /assets/slides/06_CSS-Day1.pdf
-  #       #   type: slides
-  #       # - name: "NYC Website – CSS"
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
+  - week_number: 3
+    classes:
+      - topics: HTML
+        due: 
+        - "Chapter 6: Adding Links"
+        - "Chapter 7: Adding Images"
+        files:
+        # - name: HTML_workshop.pdf
+        #   path: /assets/slides/05_HTML-Workshop.pdf
+        #   type: slides
+        # - name: "Download: NYC HTML Files"
+        #   path: /files/nyc-website-html-starting.zip
+        #   type: download
+        # - name: NYC Site – Final HTML
+        #   path: /demos-completed/nyc-website-html/
+        #   type: code
+      - topics: CSS
+        due:
+        - "Ed Lesson: CSS Basics"
+        - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/02.html)"
+        - "Chapter 11: Introducing Cascadingx Style Sheets"
+        - "Chapter 12: Formatting Text"
+        # files:
+        # - name: CSS-Day01.pdf
+        #   path: /assets/slides/06_CSS-Day1.pdf
+        #   type: slides
+        # - name: "NYC Website – CSS"
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
   # - week_number: 4
   #   classes:
   #     - topics: CSS
