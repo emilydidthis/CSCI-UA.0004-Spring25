@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Practice Logo</title>
+</head>
+<body>
+    <svg width="550" height="300">
+        <title>Logo with gradient colors</title>
+        <defs>
+            <linearGradient id="gradient1">
+                <stop offset="0%" stop-color="yellow"></stop>
+                <stop offset="100%" stop-color="magenta"></stop>
+            </linearGradient>
+            <linearGradient id="gradient2">
+                <stop offset="0%" stop-color="cyan"></stop>
+                <stop offset="100%" stop-color="yellow"></stop>
+            </linearGradient>
+            <linearGradient id="gradient3">
+                <stop offset="0%" stop-color="magenta"></stop>
+                <stop offset="100%" stop-color="cyan"></stop>
+            </linearGradient>
+        </defs>
+
+        <g>
+            <!-- linking svgs to nyu, the previous example, and our class website  -->
+            <a href="example1.html">
+                <rect x="30" y="30" width="240" height="240" fill="url(#gradient1)" opacity="0.8"></rect>
+            </a>
+            <a href="example2.html">
+                <circle cx="270" cy="150" r="120" fill="url(#gradient2)" opacity="0.5"></circle>
+            </a>
+            <a href="https://emilydidthis.github.io/CSCI-UA.0004-Spring24/">
+                <polygon points="400,30 270,270 520,270" fill="url(#gradient3)" opacity="0.5"></polygon>
+            </a>
+            <line x1="70" y1="180" x2="340" y2="180" stroke="black"></line>
+            <text x="70" y="170" font-family="Helvetica" font-size="44">CSCI-UA 0004</text>
+        </g>
+    </svg>
+</body>
+</html>

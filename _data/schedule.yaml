@@ -36,19 +36,19 @@ schedule:
         - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/65705/lessons/116472/slides/646362)"
         - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/01.html) (step by step walkthrough on Ed)"
         - "Chapter 5: Marking Up Text"
-        # files:
-        # - name: HTML-FilePaths.pdf
-        #   path: /assets/slides/04_HTML-FilePaths.pdf
-        #   type: slides
-        # - name: HTML Errors
-        #   path: /demos-completed/html-errors.html
-        #   type: code
-        # - name: "Download: Street Directory"
-        #   path: /assets/files/street.zip
-        #   type: download
-        # - name: "Download: NYC Starter files"
-        #   path: /assets/files/nyc-starter-files.zip
-        #   type: download
+        files:
+        - name: html-filepaths.pdf
+          path: /assets/slides/04_html_filepaths_template.pdf
+          type: slides
+        - name: HTML Errors
+          path: /demos-completed/html-errors.html
+          type: code
+        - name: "Download: Street Directory"
+          path: /assets/files/street.zip
+          type: download
+        - name: "Download: NYC Starter files"
+          path: /assets/files/nyc-starter-files.zip
+          type: download
   - week_number: 3
     classes:
       - topics: HTML

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Box + Flex Practice </title>
+        <!-- <link rel="stylesheet" href="styles.css" -->
+        <style>
+
+            body {
+                font-family: Helvetica, sans-serif;
+            }
+
+            #column1{
+                width: 200px;
+                height: 300px;
+                border: 5px dotted palevioletred;
+                padding: 10px;
+                margin-right: 30px;
+            }
+
+            #column2 {
+                width: 400px;
+                height: 400px;
+                background-color: aquamarine;
+                padding: 30px;
+            }
+
+            #container {
+                display: flex; /* the direct children of container will become row items (aka columns) */
+                justify-content: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Box Model + Flex Practice</h1>
+        <p> The two paragraphs below should be centered in the page. Column 1 should have a right margin of 30px. All font on the page should be Helvetica. </p>
+        <div id="container"> <!-- parent container for col1 and col2 -->
+            <div id="column1">
+                <h2>Column 1</h2>
+                <p> This is a paragraph should be: </p>
+                <ul>
+                    <li>200px wide</li>
+                    <li>300px tall</li>
+                    <li>with a 5px dotted palevioletred border</li>
+                    <li>and padding of 10px</li>
+                </ul> 
+            </div> <!-- end of #column1 -->
+            
+            <div id="column2">
+                <h2>Column 2</h2>
+                <p> This is a paragraph should be: </p>
+                <ul>
+                    <li>400px wide</li>
+                    <li>400px tall</li>
+                    <li>with a background color of aquamarine </li>
+                    <li>and padding of 30px</li>
+                </ul> 
+            </div> <!-- end of #column2 -->
+        </div> <!-- end of #container -->
+    </body>
+</html>

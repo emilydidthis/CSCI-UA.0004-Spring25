@@ -1,0 +1,57 @@
+/* CSS Day 01 Styles */
+
+h1, h2, h3, h4, h5, h6, th {
+    font-family: Arial, Helvetica, sans-serif; /* with fallback font category */
+    color: #2d2d2d; /* dark gray */ 
+    font-size: 1.3em; /* ems are relative font size */
+}
+
+p, ul, ol, td {
+    color: #2d2d2d; /* dark gray */
+    font-family: Georgia, serif; /* with fallback font category */
+    font-size: 1em;
+    line-height: 1.4em; /* aka "leading" */
+}
+
+.title {
+    font-size: 1.7em;
+}
+
+#credit {
+    font-size: 0.7em;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+    background-color: orange;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 1.3em;
+}
+
+th {
+    height: 2.8em;
+}
+
+.even {
+    background-color: lightgrey;
+}
+
+.odd {
+    background-color: white;
+}

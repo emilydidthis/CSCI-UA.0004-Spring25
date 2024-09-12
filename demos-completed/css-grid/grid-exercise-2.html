@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Exercise #2</title>
+    <style>
+
+       @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+      
+       .a, .b, .c, .d, .e, .f {
+        background-color: rgba(255, 0, 0, .2);
+        border: 1px solid red;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .wrapper {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        gap: 5px;
+        grid-template-areas: 
+          "a a b d"
+          "a a b d"
+          "a a c e"
+          "a a c f";
+
+        font-family: "Space Mono", monospace;
+      }
+
+      /* giving nicknames to the classes*/
+      .a { grid-area: a; }
+      .b { grid-area: b; }
+      .c { grid-area: c; }
+      .d { grid-area: d; }
+      .e { grid-area: e; }
+      .f { grid-area: f; }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="a">Apple</div>
+      <div class="b">Banana</div>
+      <div class="c">C</div>
+      <div class="d">D</div>
+      <div class="e">E</div>
+      <div class="f">F</div>
+    </div>
+  </body>
+</html>

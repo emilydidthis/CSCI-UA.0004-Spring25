@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Exercise #1</title>
+    <style>
+
+      @font-face {
+        font-family: "PlaypenSans";
+        src: url("PlaypenSans-VariableFont_wght.ttf");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .a, .b, .c, .d, .e, .f {
+        background-color: rgba(0, 0, 255, .2);
+        border: 1px solid blue;
+        border-radius: 10px;
+        padding: 10px;
+      }
+
+      .wrapper {
+        display: grid;
+        /* grid-template-columns: 100px 100px 100px; */
+        /* grid-template-columns: repeat(3, 100px); */
+        /* fr is fractional unit */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 100px 100px;
+        gap: 10px;
+        grid-template-areas: 
+          "a c d"
+          "e f b";
+        font-family: "PlaypenSans";
+      }
+
+      /* giving nicknames to the classes*/
+      .a { grid-area: a; }
+      .b { grid-area: b; }
+      .c { grid-area: c; }
+      .d { grid-area: d; }
+      .e { grid-area: e; }
+      .f { grid-area: f; }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="a">Apple</div>
+      <div class="b">Banana</div>
+      <div class="c">Carrot</div>
+      <div class="d">D</div>
+      <div class="e">E</div>
+      <div class="f">F</div>
+    </div>
+  </body>
+</html>
