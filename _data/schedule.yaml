@@ -68,7 +68,7 @@ schedule:
       - topics: CSS
         due:
         - "Ed Lesson: CSS Basics"
-        - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/02.html)"
+        - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/02.html)"
         - "Chapter 11: Introducing Cascadingx Style Sheets"
         - "Chapter 12: Formatting Text"
         # files:
