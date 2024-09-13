@@ -45,7 +45,7 @@ Finally, create a link from the “HTML” line of your assignments directory to
 <div class="section-break"><br></div>
 
 ### Submitting Your Assignment
-Submit the following via [Ed Lessons](https://edstem.org/us/courses/54452/lessons/92229/slides/510406). 
+Submit the following via [Ed Lessons]({{site.ed}}lessons/). 
 
 - The URL to your pages in the general form of i6.cims.nyu.edu/~netid/
 - A directory containing all the files of your new website
