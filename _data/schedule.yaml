@@ -60,11 +60,11 @@ schedule:
           path: /assets/slides/05_html_workshop_template.pdf
           type: slides
         - name: "Download: NYC HTML Files"
-          path: /files/nyc-website-html-starting.zip
+          path: assets/files/nyc-website-html-starting.zip
           type: download
-        # - name: NYC Site – Final HTML
-        #   path: /demos-completed/nyc-website-html/
-        #   type: code
+        - name: NYC Site – Final HTML
+          path: /demos-completed/nyc-website-html/
+          type: code
       - topics: CSS
         due:
         - "[Ed Lesson: CSS Basics](https://edstem.org/us/courses/65705/lessons/116473/slides/646365)"
