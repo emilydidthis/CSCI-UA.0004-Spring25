@@ -71,43 +71,46 @@ schedule:
         - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/02.html)"
         - "Chapter 11: Introducing Cascading Style Sheets"
         - "Chapter 12: Formatting Text"
-        # files:
-        # - name: CSS-Day01.pdf
-        #   path: /assets/slides/06_CSS-Day1.pdf
-        #   type: slides
+        files:
+        - name: css-day1.pdf
+          path: /assets/slides/06_css_day1_template.pdf
+          type: slides
+        - name: "Download: NYC Final HTML Files"
+          path: assets/files/nyc-website-final-html.zip
+          type: download
         # - name: "NYC Website – CSS"
         #   path: /demos-completed/nyc-website-css/
         #   type: code
-  # - week_number: 4
-  #   classes:
-  #     - topics: CSS
-  #       due:
-  #       - "Ed Lessons: Box Model + Flexbox" 
-  #       - "Chapter 13: Colors and Backgrounds"
-  #       - "Chapter 14: Thinking Inside the Box"
-  #       # files:
-  #       # - name: CSS-Day02.pdf
-  #       #   path: /assets/slides/07_CSS-Day02.pdf
-  #       #   type: slides
-  #       # - name: "Download: NYC CSS Day2 Files"
-  #       #   path: /files/nyc-website-css-starting-day2.zip
-  #       #   type: download
-  #       # - name: "Download: `nyc-seal.png`"
-  #       #   path: /demos-completed/nyc-website-css/images/nyc-seal.png
-  #       #   type: download
-  #       # - name: "NYC Website – CSS Day 2"
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
-  #     - topics: CSS (Review + Workshop)
-  #       due:
-  #       - "Nothing due"
-  #       # files:
-  #       # - name: Box Model + FlexBox Review Site
-  #       #   path: /demos-completed/box-flex-practice/
-  #       #   type: code
-  #       # - name: NYC Site – CSS Day 3
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
+  - week_number: 4
+    classes:
+      - topics: CSS
+        due:
+        - "Ed Lessons: Box Model + Flexbox" 
+        - "Chapter 13: Colors and Backgrounds"
+        - "Chapter 14: Thinking Inside the Box"
+        # files:
+        # - name: CSS-Day02.pdf
+        #   path: /assets/slides/07_CSS-Day02.pdf
+        #   type: slides
+        # - name: "Download: NYC CSS Day2 Files"
+        #   path: /files/nyc-website-css-starting-day2.zip
+        #   type: download
+        # - name: "Download: `nyc-seal.png`"
+        #   path: /demos-completed/nyc-website-css/images/nyc-seal.png
+        #   type: download
+        # - name: "NYC Website – CSS Day 2"
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
+      - topics: CSS (Review + Workshop)
+        due:
+        - "Nothing due"
+        # files:
+        # - name: Box Model + FlexBox Review Site
+        #   path: /demos-completed/box-flex-practice/
+        #   type: code
+        # - name: NYC Site – CSS Day 3
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
   # - week_number: 5
   #   classes:
   #     - topics: Raster Graphics
