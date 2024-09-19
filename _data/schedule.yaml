@@ -76,7 +76,7 @@ schedule:
           path: /assets/slides/06_css_day1_template.pdf
           type: slides
         - name: "Download: NYC Final HTML Files"
-          path: assets/files/nyc-website-final-html.zip
+          path: /assets/files/nyc-website-final-html.zip
           type: download
         # - name: "NYC Website – CSS"
         #   path: /demos-completed/nyc-website-css/
