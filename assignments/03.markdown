@@ -5,7 +5,7 @@ title: "Assignment #3"
 assign-date: Sept 19
 due-date: Oct 1
 topic: CSS
-live: false
+live: true
 
 ---
 ## CSS
@@ -41,7 +41,7 @@ Finally, create a link from the “CSS” line of your assignments directory to 
 <div class="section-break"><br></div>
 
 ### Submitting Your Assignment
-Submit the following via [Ed](https://edstem.org/us/courses/54452/lessons/92867/slides/513683)
+Submit the following via [Ed]({{site.ed}})
 
 - The URL to your website on i6
 - A compressed archive containing all the files (HTML, CSS, and images) of your web pages
