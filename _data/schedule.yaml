@@ -93,13 +93,13 @@ schedule:
           path: /assets/slides/07_css_day02.pdf
           type: slides
         - name: "Download: NYC CSS Day2 Files"
-          path: assets/files/nyc-website-css-starting-day2.zip
+          path: /assets/files/nyc-website-css-starting-day2.zip
           type: download
         - name: "Download: `nyc-seal.png`"
           path: /demos-completed/nyc-website-css/images/nyc-seal.png
           type: download
         - name: "Download: Box Model + Flexbox Files"
-          path: assets/files/box-flex-practice.zip
+          path: /assets/files/box-flex-practice.zip
           type: download
         # - name: "NYC Website – CSS Day 2"
         #   path: /demos-completed/nyc-website-css/
