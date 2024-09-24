@@ -72,7 +72,7 @@ schedule:
         - "Chapter 11: Introducing Cascading Style Sheets"
         - "Chapter 12: Formatting Text"
         files:
-        - name: css-day1.pdf
+        - name: CSS-day1.pdf
           path: /assets/slides/06_css_day1_template.pdf
           type: slides
         - name: "Download: NYC Final HTML Files"
@@ -88,16 +88,19 @@ schedule:
         - "[Ed Lessons: Box Model + Flexbox](https://edstem.org/us/courses/65705/lessons/116474/slides/646366)" 
         - "Chapter 13: Colors and Backgrounds"
         - "Chapter 14: Thinking Inside the Box"
-        # files:
-        # - name: CSS-Day02.pdf
-        #   path: /assets/slides/07_CSS-Day02.pdf
-        #   type: slides
-        # - name: "Download: NYC CSS Day2 Files"
-        #   path: /files/nyc-website-css-starting-day2.zip
-        #   type: download
-        # - name: "Download: `nyc-seal.png`"
-        #   path: /demos-completed/nyc-website-css/images/nyc-seal.png
-        #   type: download
+        files:
+        - name: CSS-day2.pdf
+          path: /assets/slides/07_css_day02.pdf
+          type: slides
+        - name: "Download: NYC CSS Day2 Files"
+          path: assets/files/nyc-website-css-starting-day2.zip
+          type: download
+        - name: "Download: `nyc-seal.png`"
+          path: /demos-completed/nyc-website-css/images/nyc-seal.png
+          type: download
+        - name: "Download: Box Model + Flexbox Files"
+          path: assets/files/box-flex-practice.zip
+          type: download
         # - name: "NYC Website – CSS Day 2"
         #   path: /demos-completed/nyc-website-css/
         #   type: code
@@ -111,50 +114,50 @@ schedule:
         # - name: NYC Site – CSS Day 3
         #   path: /demos-completed/nyc-website-css/
         #   type: code
-  # - week_number: 5
-  #   classes:
-  #     - topics: Raster Graphics
-  #       due: 
-  #       - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/03.html)"
-  #       - "Ed Lesson: CSS Positioning"
-  #       - "Chapter 15: Floating and Positioning"
-  #       # files:
-  #       # - name: RasterGraphics_Day01.pdf
-  #       #   path: /assets/slides/09_Raster-Graphics.pdf 
-  #       #   type: slides
-  #       # - name: Canal image in four file formats
-  #       #   path: /demos-completed/images-for-web/
-  #       #   type: code
-  #       # - name: "Download: Demo Images"
-  #       #   path: /files/images-for-raster-graphics.zip/
-  #       #   type: download
-  #       # - name: Adobe Photoshop Free Trial
-  #       #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
-  #       #   type: external code
-  #       # - name: LaGuardia Student Technology Center
-  #       #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
-  #       #   type: external code
-  #       # - name: GNU Image Manipulation Program (GIMP)
-  #       #   path: https://www.gimp.org/
-  #       #   type: external code
-  #     - topics: Raster Graphics
-  #       due:
-  #       - "Ed Lessons: Photoshop + GIMP"
-  #       - "Chapter 23: Web Image Basics"
-  #       - "Chapter 24: Image Asset Production"
-  #       # files:
-  #       # - name: RasterGraphics_Day02.pdf
-  #       #   path: /assets/slides/10_RasterGraphics-Workshop.pdf 
-  #       #   type: slides
-  #       # - name: Grand Central image with <picture> element
-  #       #   path: /demos-completed/picture-tag/
-  #       #   type: code
-  #       # - name: "Download: Moon Skater Files"
-  #       #   path: /assets/files/moon-skater-files.zip
-  #       #   type: download
-  #       # - name: Moon Skater
-  #       #   path: /demos-completed/moon-skater/
-  #       #   type: code
+  - week_number: 5
+    classes:
+      - topics: Raster Graphics
+        due: 
+        - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/03.html)"
+        - "Ed Lesson: CSS Positioning"
+        - "Chapter 15: Floating and Positioning"
+        # files:
+        # - name: RasterGraphics_Day01.pdf
+        #   path: /assets/slides/09_Raster-Graphics.pdf 
+        #   type: slides
+        # - name: Canal image in four file formats
+        #   path: /demos-completed/images-for-web/
+        #   type: code
+        # - name: "Download: Demo Images"
+        #   path: /files/images-for-raster-graphics.zip/
+        #   type: download
+        # - name: Adobe Photoshop Free Trial
+        #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
+        #   type: external code
+        # - name: LaGuardia Student Technology Center
+        #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
+        #   type: external code
+        # - name: GNU Image Manipulation Program (GIMP)
+        #   path: https://www.gimp.org/
+        #   type: external code
+      - topics: Raster Graphics
+        due:
+        - "Ed Lessons: Photoshop + GIMP"
+        - "Chapter 23: Web Image Basics"
+        - "Chapter 24: Image Asset Production"
+        # files:
+        # - name: RasterGraphics_Day02.pdf
+        #   path: /assets/slides/10_RasterGraphics-Workshop.pdf 
+        #   type: slides
+        # - name: Grand Central image with <picture> element
+        #   path: /demos-completed/picture-tag/
+        #   type: code
+        # - name: "Download: Moon Skater Files"
+        #   path: /assets/files/moon-skater-files.zip
+        #   type: download
+        # - name: Moon Skater
+        #   path: /demos-completed/moon-skater/
+        #   type: code
   # - week_number: 6
   #   classes:
   #     - topics: Vector Graphics
