@@ -41,7 +41,7 @@ Finally, create a link from the “CSS” line of your assignments directory to 
 <div class="section-break"><br></div>
 
 ### Submitting Your Assignment
-Submit the following via [Ed]({{site.ed}})
+Submit the following via [Ed]({{site.ed}}lessons/)
 
 - The URL to your website on i6
 - A compressed archive containing all the files (HTML, CSS, and images) of your web pages
