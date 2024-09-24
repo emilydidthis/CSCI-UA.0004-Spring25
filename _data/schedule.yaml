@@ -101,16 +101,17 @@ schedule:
         - name: "Download: Box Model + Flexbox Files"
           path: /assets/files/box-flex-practice.zip
           type: download
-        # - name: "NYC Website – CSS Day 2"
-        #   path: /demos-completed/nyc-website-css/
-        #   type: code
+        - name: "NYC Website – CSS Day 2"
+          path: /demos-completed/nyc-website-css/
+          type: code
+        - name: Box Model + FlexBox Review Site
+          path: /demos-completed/box-flex-practice/
+          type: code
       - topics: CSS (Review + Workshop)
         due:
         - "Nothing due"
         # files:
-        # - name: Box Model + FlexBox Review Site
-        #   path: /demos-completed/box-flex-practice/
-        #   type: code
+        # 
         # - name: NYC Site – CSS Day 3
         #   path: /demos-completed/nyc-website-css/
         #   type: code

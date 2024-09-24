@@ -4,6 +4,30 @@
         <meta charset="utf-8">
         <title>Box + Flex Practice </title>
         <style>
+
+            #container { /* parent to column1 + column 2*/
+                display: flex;  /* container's direct children will become flex items */
+                flex-direction: row; /* default for main axis */
+                /* default for main axis */
+                /* justify-content: flex-start;  */
+                justify-content: space-around;
+                
+            }
+
+            #column1 {
+                border: 5px dotted palevioletred;
+                width: 200px;
+                height: 300px;
+                padding: 10px;
+            }
+
+            #column2 {
+                background-color: aquamarine;
+                width: 400px;
+                height: 400px;
+                padding: 30px;
+            }
+
         </style>
     </head>
     <body>
