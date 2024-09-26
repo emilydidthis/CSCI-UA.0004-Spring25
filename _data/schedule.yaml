@@ -120,7 +120,7 @@ schedule:
       - topics: Raster Graphics
         due: 
         - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/03.html)"
-        - "Ed Lesson: CSS Positioning"
+        - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/65705/lessons/116475/slides/646370)"
         - "Chapter 15: Floating and Positioning"
         # files:
         # - name: RasterGraphics_Day01.pdf

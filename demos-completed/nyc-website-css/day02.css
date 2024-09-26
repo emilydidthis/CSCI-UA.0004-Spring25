@@ -101,3 +101,14 @@ td {
 .title a:hover {
     background-color: lightgrey;
 }
+
+/* --- CSS Flexbox ---  */
+main { /* got rid of the div and made main exclude my table */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+article {
+    width: calc(92% / 3); /* 8% of spacing for justify-content to put between the children */
+}
