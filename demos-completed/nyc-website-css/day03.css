@@ -103,19 +103,17 @@ td {
 }
 
 /* --- CSS Flexbox ---  */
-/* with added responsiveness! */
 
-@media (min-width: 850px){
-    main { /* got rid of the div and made main exclude my table */
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    article {
-        width: calc(92% / 3); /* 8% of spacing for justify-content to put between the children */
-    }
+main { /* got rid of the div and made main exclude my table */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+article {
+    width: calc(92% / 3); /* 8% of spacing for justify-content to put between the children */
+}
+
 
 /* --- CSS Day 03 Styles ---  */
 

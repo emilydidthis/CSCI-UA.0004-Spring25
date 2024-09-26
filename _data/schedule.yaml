@@ -110,11 +110,10 @@ schedule:
       - topics: CSS (Review + Workshop)
         due:
         - "Nothing due"
-        # files:
-        # 
-        # - name: NYC Site – CSS Day 3
-        #   path: /demos-completed/nyc-website-css/
-        #   type: code
+        files:
+        - name: NYC Site – CSS Day 3
+          path: /demos-completed/nyc-website-css/
+          type: code
   - week_number: 5
     classes:
       - topics: Raster Graphics
