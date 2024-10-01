@@ -5,7 +5,7 @@ title: "Assignment #4"
 assign-date: Oct 1
 due-date: Oct 8
 topic: Raster Graphics
-live: false
+live: true
 
 ---
 

@@ -121,43 +121,43 @@ schedule:
         - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/03.html)"
         - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/65705/lessons/116475/slides/646370)"
         - "Chapter 15: Floating and Positioning"
-        # files:
-        # - name: RasterGraphics_Day01.pdf
-        #   path: /assets/slides/09_Raster-Graphics.pdf 
-        #   type: slides
-        # - name: Canal image in four file formats
-        #   path: /demos-completed/images-for-web/
-        #   type: code
-        # - name: "Download: Demo Images"
-        #   path: /files/images-for-raster-graphics.zip/
-        #   type: download
-        # - name: Adobe Photoshop Free Trial
-        #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
-        #   type: external code
-        # - name: LaGuardia Student Technology Center
-        #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
-        #   type: external code
-        # - name: GNU Image Manipulation Program (GIMP)
-        #   path: https://www.gimp.org/
-        #   type: external code
+        files:
+        - name: raster-graphics_day1.pdf
+          path: /assets/slides/10_raster-graphics.pdf
+          type: slides
+        - name: Canal image in four file formats
+          path: /demos-completed/images-for-web/
+          type: code
+        - name: "Download: Demo Images"
+          path: /assets/files/images-for-raster-graphics.zip/
+          type: download
+        - name: Adobe Photoshop Free Trial
+          path: https://www.adobe.com/products/photoshop/free-trial-download.html
+          type: external code
+        - name: LaGuardia Student Technology Center
+          path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
+          type: external code
+        - name: GNU Image Manipulation Program (GIMP)
+          path: https://www.gimp.org/
+          type: external code
       - topics: Raster Graphics
         due:
-        - "Ed Lessons: Photoshop + GIMP"
+        - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/65705/lessons/116476/slides/646373)"
         - "Chapter 23: Web Image Basics"
         - "Chapter 24: Image Asset Production"
-        # files:
-        # - name: RasterGraphics_Day02.pdf
-        #   path: /assets/slides/10_RasterGraphics-Workshop.pdf 
-        #   type: slides
-        # - name: Grand Central image with <picture> element
-        #   path: /demos-completed/picture-tag/
-        #   type: code
-        # - name: "Download: Moon Skater Files"
-        #   path: /assets/files/moon-skater-files.zip
-        #   type: download
-        # - name: Moon Skater
-        #   path: /demos-completed/moon-skater/
-        #   type: code
+        files:
+        - name: RasterGraphics_Day02.pdf
+          path: /assets/slides/10_RasterGraphics-Workshop.pdf 
+          type: slides
+        - name: Grand Central image with <picture> element
+          path: /demos-completed/picture-tag/
+          type: code
+        - name: "Download: Moon Skater Files"
+          path: /assets/files/moon-skater-files.zip
+          type: download
+        - name: Moon Skater
+          path: /demos-completed/moon-skater/
+          type: code
   # - week_number: 6
   #   classes:
   #     - topics: Vector Graphics
