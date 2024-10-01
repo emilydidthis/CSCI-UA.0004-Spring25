@@ -145,19 +145,19 @@ schedule:
         - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/65705/lessons/116476/slides/646373)"
         - "Chapter 23: Web Image Basics"
         - "Chapter 24: Image Asset Production"
-        files:
-        - name: RasterGraphics_Day02.pdf
-          path: /assets/slides/10_RasterGraphics-Workshop.pdf 
-          type: slides
-        - name: Grand Central image with <picture> element
-          path: /demos-completed/picture-tag/
-          type: code
-        - name: "Download: Moon Skater Files"
-          path: /assets/files/moon-skater-files.zip
-          type: download
-        - name: Moon Skater
-          path: /demos-completed/moon-skater/
-          type: code
+        # files:
+        # - name: RasterGraphics_Day02.pdf
+        #   path: /assets/slides/10_RasterGraphics-Workshop.pdf 
+        #   type: slides
+        # - name: Grand Central image with <picture> element
+        #   path: /demos-completed/picture-tag/
+        #   type: code
+        # - name: "Download: Moon Skater Files"
+        #   path: /assets/files/moon-skater-files.zip
+        #   type: download
+        # - name: Moon Skater
+        #   path: /demos-completed/moon-skater/
+        #   type: code
   # - week_number: 6
   #   classes:
   #     - topics: Vector Graphics
