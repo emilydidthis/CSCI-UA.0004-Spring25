@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Moon Skater</title>
+    <style>
+        body {
+            background-image: url('moonscape.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* fixes the background image in place */
+            background-position: center; /* centers the background image horizontally and vertically */
+            background-size: cover; /* adjusts the background size to cover the entire viewport */
+        }
+
+        h1 {
+            color: white;
+            font-family: Courier;
+            text-align: center;
+            font-weight: lighter;
+        }
+
+        img {
+            /* fixed positioning, 
+            placing skater 50% from the left edge of the viewport 
+            and 5 pixels from the bottom edge of the viewport. */
+            position: fixed;
+            left: 50%;
+            bottom: 5px;
+        }
+    </style>
+  </head>
+
+  <body>
+    <h1>Moon Skater</h1>
+    <img src="skater-225.png" srcset="skater-550.png 2x" width="225" height="266" alt="Skateboarder">
+  </body>
+</html>

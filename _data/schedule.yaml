@@ -145,10 +145,13 @@ schedule:
         - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/65705/lessons/116476/slides/646373)"
         - "Chapter 23: Web Image Basics"
         - "Chapter 24: Image Asset Production"
-        # files:
-        # - name: RasterGraphics_Day02.pdf
-        #   path: /assets/slides/10_RasterGraphics-Workshop.pdf 
-        #   type: slides
+        files:
+        - name: RasterGraphics_AssignmentWalkingthrough.pdf
+          path: /assets/slides/10_RasterGraphics-Condensed.pdf
+          type: slides
+        - name: "Download: Demo Images"
+          path: /assets/files/raster-graphics-assets.zip/
+          type: download
         # - name: Grand Central image with <picture> element
         #   path: /demos-completed/picture-tag/
         #   type: code
