@@ -164,17 +164,17 @@ schedule:
         # - name: Moon Skater
         #   path: /demos-completed/moon-skater/
         #   type: code
-  # - week_number: 6
-  #   classes:
-  #     - topics: Vector Graphics
-  #       due:
-  #       - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/04.html)"
-  #       - "Ed Lessons: XML + SVG Basics"
-  #       - "Chapter 25: SVG"
-  #       - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
-  #       # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
-  #       # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
-  #       # files:
+  - week_number: 6
+    classes:
+      - topics: Vector Graphics
+        due:
+        - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/04.html)"
+        - "[Ed Lessons: XML + SVG Basics](https://edstem.org/us/courses/65705/lessons/116477/slides/646378)"
+        - "Chapter 25: SVG"
+        # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
+        # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
+        # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
+        # files:
   #       # - name: VectorGraphics.pdf
   #       #   path: /assets/slides/11_VectorGraphics_Day1.pdf
   #       #   type: slides
@@ -187,7 +187,7 @@ schedule:
   #       # - name: SVG Exercise Links
   #       #   path: /demos-completed/svg-practice/example3.html
   #       #   type: code     
-  #     - topics: Vector Graphics
+      - topics: No Class – Professor at Conference
   #       due:
   #       - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
   #       - <a href="https://www.youtube.com/watch?v=-_KJZPOYBeA">InkScape Tutorial for Beginners (11 min)</a>
@@ -201,11 +201,11 @@ schedule:
   #       # - name: SVG Exercise Links
   #       #   path: /demos/svg-practice/
   #       #   type: code          
-  # - week_number: 7
-  #   classes:
-  #     - topics: Legislative Day
-  #     - topics: Review
-  #       due:
+  - week_number: 7
+    classes:
+      - topics: No Class – Legislative Monday
+      - topics: Review
+        due:
   #       - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/05.html)"
   #       # files:
   #       # - name: midterm-review-slides.pdf
@@ -224,14 +224,14 @@ schedule:
   #       #   path: /assets/files/midterm-practice-qs-KEY.pdf
   #       #   type: slides
                
-  # - week_number: 8
-  #   classes:
-  #     - topics: Midterm Exam
-  #       due: 
-  #       files:
-  #       - name: 
-  #         path: 
-  #         type: 
+  - week_number: 8
+    classes:
+      - topics: Midterm Exam
+        due: 
+        files:
+        - name: 
+          path: 
+          type: 
   #     - topics: Design + Accessibility
   #       due:
   #       - "Chapter 3: Some Big Concepts You Need to Know" 
