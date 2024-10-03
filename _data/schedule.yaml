@@ -149,9 +149,12 @@ schedule:
         - name: RasterGraphics_AssignmentWalkingthrough.pdf
           path: /assets/slides/10_RasterGraphics-Condensed.pdf
           type: slides
-        - name: "Download: Demo Images"
+        - name: "Download: Images to Resize"
           path: /assets/files/raster-graphics-assets.zip
           type: download
+        - name: Sleepy Cat Final Site
+          path: /demos-completed/sleepy-cat/
+          type: code
         # - name: Grand Central image with <picture> element
         #   path: /demos-completed/picture-tag/
         #   type: code

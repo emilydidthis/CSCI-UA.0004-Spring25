@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sleepy Cat</title>
+    <style>
+      body {
+        background-image: url("classroom-1920.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* fixes the background image in place */
+        background-position: center; /* centers the background image horizontally and vertically */
+        background-size: cover; /* adjusts the background size to cover the entire viewport */
+      }
+
+      img {
+        /* position relative to the browser window */
+        position: fixed;
+        bottom: 5px;
+        left: 30%;
+      }
+
+      h1 {
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+        font-weight: bolder;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <h1>Sleepy Cat</h1>
+    <img src="sleepy-cat-480.png" srcset="sleepy-cat-960.png 2x, sleepy-cat-1440.png 3x" width="400" height="auto" alt="orange tabby cat that looks sleepy">
+  </body>
+</html>
