@@ -174,27 +174,28 @@ schedule:
         # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
         # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
         # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
-        # files:
-  #       # - name: VectorGraphics.pdf
-  #       #   path: /assets/slides/11_VectorGraphics_Day1.pdf
-  #       #   type: slides
-  #       # - name: SVG Exercise 1 (from Ed Lesson)
-  #       #   path: /demos-completed/svg-practice/example1.html
-  #       #   type: code
-  #       # - name: SVG Exercise 2
-  #       #   path: /demos-completed/svg-practice/example2.html
-  #       #   type: code
-  #       # - name: SVG Exercise Links
-  #       #   path: /demos-completed/svg-practice/example3.html
-  #       #   type: code     
+        files:
+        - name: vector-graphics.pdf
+          path: /assets/slides/11_VectorGraphics.pdf
+          type: slides
+        - name: Midterm Topics
+          path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
+          type: external code
+        - name: SVG Exercise 1 (from Ed Lesson)
+          path: /demos-completed/svg-practice/example1.html
+          type: code
+        # - name: SVG Exercise Links
+        #   path: /demos-completed/svg-practice/example3.html
+        #   type: code
+        - name: All the ways you can embed SVGs
+          path: /demos-completed/svg-practice/embed-svgs.html
+          type: code     
       - topics: No Class – Professor at Conference
   #       due:
   #       - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
   #       - <a href="https://www.youtube.com/watch?v=-_KJZPOYBeA">InkScape Tutorial for Beginners (11 min)</a>
   #       # files:
-  #       # - name: All the ways you can embed SVGs
-  #       #   path: /demos-completed/svg-practice/embed-svgs.html
-  #       #   type: code
+
   #       # - name: Midterm Topics
   #       #   path: "https://docs.google.com/document/d/1Oavq18khS9szbJ38i6SAMFXLPDmB3xBNQyx6vwgmq9c/edit?usp=sharing"
   #       #   type: external code
@@ -206,23 +207,23 @@ schedule:
       - topics: No Class – Legislative Monday
       - topics: Review
         due:
-  #       - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/05.html)"
-  #       # files:
-  #       # - name: midterm-review-slides.pdf
-  #       #   path: /assets/slides/13_MidtermReview.pdf
-  #       #   type: slides
-  #       # - name: "Download: Midterm Website Files"
-  #       #   path: /assets/files/midterm_review.zip
-  #       #   type: download
-  #       # - name: Midterm Practice Final Site
-  #       #   path: /demos/midterm-review/
-  #       #   type: code       
-  #       # - name: Midterm Practice Exam
-  #       #   path: /assets/files/midterm-practice-qs.pdf
-  #       #   type: slides
-  #       # - name: Midterm Practice Exam – SOLUTIONS
-  #       #   path: /assets/files/midterm-practice-qs-KEY.pdf
-  #       #   type: slides
+        - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/05.html)"
+        # files:
+        # - name: midterm-review-slides.pdf
+        #   path: /assets/slides/13_MidtermReview.pdf
+        #   type: slides
+        # - name: "Download: Midterm Website Files"
+        #   path: /assets/files/midterm_review.zip
+        #   type: download
+        # - name: Midterm Practice Final Site
+        #   path: /demos/midterm-review/
+        #   type: code       
+        # - name: Midterm Practice Exam
+        #   path: /assets/files/midterm-practice-qs.pdf
+        #   type: slides
+        # - name: Midterm Practice Exam – SOLUTIONS
+        #   path: /assets/files/midterm-practice-qs-KEY.pdf
+        #   type: slides
                
   - week_number: 8
     classes:

@@ -5,7 +5,7 @@
     <title>SVG Practice Logo</title>
 </head>
 <body>
-    <svg width="550" height="300">
+    <svg viewBox="0 0 200 100">
         <title>Logo with gradient colors</title>
         <defs>
             <linearGradient id="gradient1">
@@ -24,17 +24,17 @@
 
         <g>
             <!-- linking svgs to nyu, the previous example, and our class website  -->
+            <a href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/">
+                <rect x="0" y="0" width="100" height="100" fill="url(#gradient1)" opacity="0.8"></rect>
+            </a>
             <a href="example1.html">
-                <rect x="30" y="30" width="240" height="240" fill="url(#gradient1)" opacity="0.8"></rect>
+                <circle id="c2" cx="100" cy="50" r="50" fill="url(#gradient2)" opacity="0.8"></circle>
             </a>
-            <a href="example2.html">
-                <circle cx="270" cy="150" r="120" fill="url(#gradient2)" opacity="0.5"></circle>
+            <a href="https://cs.nyu.edu/~ez560/">
+                <polygon polygon points="100,100 150,0 200,100" fill="url(#gradient3)" opacity="0.8"></polygon>
             </a>
-            <a href="https://emilydidthis.github.io/CSCI-UA.0004-Spring24/">
-                <polygon points="400,30 270,270 520,270" fill="url(#gradient3)" opacity="0.5"></polygon>
-            </a>
-            <line x1="70" y1="180" x2="340" y2="180" stroke="black"></line>
-            <text x="70" y="170" font-family="Helvetica" font-size="44">CSCI-UA 0004</text>
+            <line x1="11" y1="57" x2="88" y2="57" stroke="black" stroke-width="1"></line>
+            <text x="10" y="50" alignment-baseline="middle" font-family="Helvetica" font-size="12">CSCI-UA 0004</text>
         </g>
     </svg>
 </body>

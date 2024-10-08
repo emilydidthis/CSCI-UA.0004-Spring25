@@ -4,31 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example 2</title>
+    <title>SVG Practice</title>
     <style>
-        body {
-            background-color: black;
-        }
-        svg {
-            width: 400px;
-            height: auto;
-            fill: white;
-        }
+        rect {fill: cyan;}
+        circle {fill: magenta;}
+        polygon {fill: yellow;}
 
-        polygon:hover{
-            fill:yellow;
-        }
-        polygon:active{
-            fill: cyan;
-        }
+        rect, circle, polygon {opacity: 0.5}
 
+        rect:hover, circle:hover, polygon:hover {opacity: 1}
     </style>
-    
 </head>
 <body>
-    <svg viewBox="0 0 100 100">
-        <polygon points="100,0 20,40 50,60 0,100 80,60 50,40 100,0"></polygon>
+    <svg viewBox="0 0 200 100">
+        <a href="https://emilydidthis.github.io/CSCI-UA.0004-Fall24/">
+            <rect x="0" y="0" width="100" height="100"></rect>
+        </a>
+        <a href="example1.html">
+            <circle id="c2" cx="100" cy="50" r="50"></circle>
+        </a>
+        <a href="https://cs.nyu.edu/~ez560/">
+            <polygon points="100,100 150,0 200,100"></polygon>
+        </a>
     </svg>
-    
+
 </body>
 </html>
