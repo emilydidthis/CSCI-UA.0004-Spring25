@@ -178,9 +178,9 @@ schedule:
         - name: vector-graphics.pdf
           path: /assets/slides/11_VectorGraphics.pdf
           type: slides
-        - name: Midterm Topics
-          path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
-          type: external code
+        - name: "Download: SVG Starter Files"
+          path: /assets/files/svg-starter-files.zip
+          type: download
         - name: SVG Exercise 1 (from Ed Lesson)
           path: /demos-completed/svg-practice/example1.html
           type: code
@@ -189,7 +189,10 @@ schedule:
         #   type: code
         - name: All the ways you can embed SVGs
           path: /demos-completed/svg-practice/embed-svgs.html
-          type: code     
+          type: code
+        - name: Midterm Topics
+          path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
+          type: external code     
       - topics: No Class – Professor at Conference
   #       due:
   #       - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
