@@ -184,15 +184,15 @@ schedule:
         - name: SVG Exercise 1 (from Ed Lesson)
           path: /demos-completed/svg-practice/example1.html
           type: code
-        # - name: SVG Exercise Links
-        #   path: /demos-completed/svg-practice/example3.html
-        #   type: code
+        - name: SVG Exercise 2
+          path: /demos-completed/svg-practice/example2.html
+          type: code
+        - name: SVG Exercise 3
+          path: /demos-completed/svg-practice/example3.html
+          type: code
         - name: All the ways you can embed SVGs
           path: /demos-completed/svg-practice/embed-svgs.html
           type: code
-        - name: Midterm Topics
-          path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
-          type: external code     
       - topics: No Class – Professor at Conference
   #       due:
   #       - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
@@ -211,7 +211,7 @@ schedule:
       - topics: Review
         due:
         - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/05.html)"
-        # files:
+        files:
         # - name: midterm-review-slides.pdf
         #   path: /assets/slides/13_MidtermReview.pdf
         #   type: slides
@@ -220,13 +220,16 @@ schedule:
         #   type: download
         # - name: Midterm Practice Final Site
         #   path: /demos/midterm-review/
-        #   type: code       
-        # - name: Midterm Practice Exam
-        #   path: /assets/files/midterm-practice-qs.pdf
-        #   type: slides
-        # - name: Midterm Practice Exam – SOLUTIONS
-        #   path: /assets/files/midterm-practice-qs-KEY.pdf
-        #   type: slides
+        #   type: code
+        - name: Midterm Topics
+          path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
+          type: external code            
+        - name: Midterm Practice Exam
+          path: /assets/files/midterm-practice.pdf
+          type: slides
+        - name: Midterm Practice Exam – SOLUTIONS
+          path: /assets/files/midterm-practice-SOLUTIONS.pdf
+          type: slides
                
   - week_number: 8
     classes:
