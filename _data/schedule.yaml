@@ -212,15 +212,16 @@ schedule:
         due:
         - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/05.html)"
         files:
-        # - name: midterm-review-slides.pdf
-        #   path: /assets/slides/13_MidtermReview.pdf
-        #   type: slides
+       
         # - name: "Download: Midterm Website Files"
         #   path: /assets/files/midterm_review.zip
         #   type: download
         # - name: Midterm Practice Final Site
         #   path: /demos/midterm-review/
         #   type: code
+        - name: midterm-review-slides.pdf
+          path: /assets/slides/13_MidtermReview.pdf
+          type: slides
         - name: Midterm Topics
           path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
           type: external code            
