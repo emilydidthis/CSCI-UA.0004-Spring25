@@ -256,19 +256,19 @@ schedule:
         - <a href="https://help.figma.com/hc/en-us/sections/4405269443991-Figma-for-Beginners-tutorial-4-parts-">Figma for beginners tutorial</a> 
         - <a href="https://gridbyexample.com/">Grid By Example</a>
         - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids">Realizing common layouts using grids</a>
-        # files:
-        # - name: page-layout.pdf
-        #   path: /assets/slides/16_PageLayout.pdf
-        #   type: slides
-        # - name: "Download: CSS Grid Practice Files"
-        #   path: /assets/files/css-grid.zip
-        #   type: download
-        # - name: Login Screen Wireframe
-        #   path: https://www.figma.com/file/G5JqSJrarATG8STj41FgKw/Login-Wireframe?type=design&node-id=0%3A1&mode=design&t=m5edG36DaSSAGhV7-1
-        #   type: external code
-        # - name: Ghibli Website Wireframes
-        #   path: https://www.figma.com/file/yZC2jiue4tOp05AXxokbIp/Ghibli-Wireframes?type=design&node-id=0%3A1&mode=design&t=cQRbHusnqA6Bv5pK-1
-        #   type: external code
+        files:
+        - name: page-layout.pdf
+          path: /assets/slides/16_PageLayout.pdf
+          type: slides
+        - name: "Download: CSS Grid Practice Files"
+          path: /assets/files/css-grid.zip
+          type: download
+        - name: Login Screen Wireframe
+          path: https://www.figma.com/file/G5JqSJrarATG8STj41FgKw/Login-Wireframe?type=design&node-id=0%3A1&mode=design&t=m5edG36DaSSAGhV7-1
+          type: external code
+        - name: Ghibli Website Wireframes
+          path: https://www.figma.com/file/yZC2jiue4tOp05AXxokbIp/Ghibli-Wireframes?type=design&node-id=0%3A1&mode=design&t=cQRbHusnqA6Bv5pK-1
+          type: external code
         # - name: CSS Grid Exercise 1
         #   path: /demos-completed/css-grid/grid-exercise-1.html
         #   type: code
@@ -279,35 +279,35 @@ schedule:
         due:
         files:
 
-  # - week_number: 10
-  #   classes:
-  #     - topics: Responsive Design
-  #       due:
-  #       - "[Assignment #6 – Page Layout](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/06.html)" 
-  #       - "Chapter 17: Responsive Web Design"
-  #       - "<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN web docs: Responsive images</a>" 
-  #       files:
-  #       # - name: responsive-design.pdf
-  #       #   path: /assets/slides/17_ResponsiveDesign.pdf
-  #       #   type: slides 
-  #       # - name: Basic Media Queries
-  #       #   path: /demos-completed/media-query/index.html
-  #       #   type: code 
-  #       # - name: Responsive Raster Images
-  #       #   path: /demos-completed/responsive-images/index.html
-  #       #   type: code 
-  #       # - name: NYC Site – Responsive
-  #       #   path: /demos-completed/nyc-website-css/index.html
-  #       #   type: code 
-  #       # - name: "Download: Responsive Grid Files"
-  #       #   path: /assets/files/responsive-grid.zip
-  #       #   type: download
-  #       # - name: Responsive Grid
-  #       #   path: /demos-completed/responsive-grid/index.html
-  #       #   type: code    
-  #     - topics: Responsive Design (Workshop)
-  #       due:
-  #       files:
+  - week_number: 10
+    classes:
+      - topics: Responsive Design
+        due:
+        - "[Assignment #6 – Page Layout](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/06.html)" 
+        - "Chapter 17: Responsive Web Design"
+        - "<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN web docs: Responsive images</a>" 
+        files:
+        # - name: responsive-design.pdf
+        #   path: /assets/slides/17_ResponsiveDesign.pdf
+        #   type: slides 
+        # - name: Basic Media Queries
+        #   path: /demos-completed/media-query/index.html
+        #   type: code 
+        # - name: Responsive Raster Images
+        #   path: /demos-completed/responsive-images/index.html
+        #   type: code 
+        # - name: NYC Site – Responsive
+        #   path: /demos-completed/nyc-website-css/index.html
+        #   type: code 
+        # - name: "Download: Responsive Grid Files"
+        #   path: /assets/files/responsive-grid.zip
+        #   type: download
+        # - name: Responsive Grid
+        #   path: /demos-completed/responsive-grid/index.html
+        #   type: code    
+      - topics: Responsive Design (Workshop)
+        due:
+        files:
         
   # - week_number: 11
   #   classes:
