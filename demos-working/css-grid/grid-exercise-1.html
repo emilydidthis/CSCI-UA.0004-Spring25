@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grid Exercise #1</title>
+    <style>
+
+      @font-face {
+        font-family: "PlaypenSans";
+        src: url("PlaypenSans-VariableFont_wght.ttf");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      .a, .b, .c, .d, .e, .f {
+        background-color: rgba(0, 0, 255, .2);
+        border: 1px solid blue; 
+        padding: 10px;
+        border-radius: 10px;
+      }
+
+      .wrapper {
+        display: grid;
+        /* grid-template-columns: 100px 100px 100px; */
+        /* fr - fractional unit */
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 200px 200px 200px;
+        gap: 10px;
+
+        /* placing the grid items */
+        /* . to create a blank space */
+        grid-template-areas: 
+          "b c d"
+          "e a a"
+          "f f .";
+
+        font-family: "PlaypenSans";
+      }
+
+      /* assign nicknames to each of my divs */
+      /* establishing grid areas */
+      .a { grid-area: a;}
+      .b { grid-area: b;}
+      .c { grid-area: c;}
+      .d { grid-area: d;}
+      .e { grid-area: e;}
+      .f { grid-area: f;}
+
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="a">
+        <img src="asdfjlasdkfj">
+        <h1>Heading </h1>
+        <p>hello hello hello</p>
+      </div>
+      <div class="b">B</div>
+      <div class="c">C</div>
+      <div class="d">D</div>
+      <div class="e">E</div>
+      <div class="f">F</div>
+    </div>
+  </body>
+</html>
