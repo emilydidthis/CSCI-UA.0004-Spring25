@@ -104,14 +104,49 @@ td {
 
 /* --- CSS Flexbox ---  */
 
-main { /* got rid of the div and made main exclude my table */
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+@media (min-width: 850px){
+    main { /* got rid of the div and made main exclude my table */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    article {
+        width: calc(92% / 3); /* 8% of spacing for justify-content to put between the children */
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
 }
 
-article {
-    width: calc(92% / 3); /* 8% of spacing for justify-content to put between the children */
+/* --- PREFERRED COLOR SCHEME ---  */
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #2d2d2d;
+    }
+
+    h1, h2, h3, h4, h5, h6, th, p, ul, ol, td {
+        color: white; 
+    }
+
+    a:link, a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+    .even {
+        background-color: dimgray;
+    }
+
+    .odd {
+        background-color: grey;
+    }
+
 }
 
 

@@ -287,18 +287,18 @@ schedule:
         - "Chapter 17: Responsive Web Design"
         - "<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN web docs: Responsive images</a>" 
         files:
-        # - name: responsive-design.pdf
-        #   path: /assets/slides/17_ResponsiveDesign.pdf
-        #   type: slides 
-        # - name: Basic Media Queries
-        #   path: /demos-completed/media-query/index.html
-        #   type: code 
-        # - name: Responsive Raster Images
-        #   path: /demos-completed/responsive-images/index.html
-        #   type: code 
-        # - name: NYC Site – Responsive
-        #   path: /demos-completed/nyc-website-css/index.html
-        #   type: code 
+        - name: responsive-design.pdf
+          path: /assets/slides/16_responsive-design-template.pdf
+          type: slides 
+        - name: Basic Media Queries
+          path: /demos-completed/media-query/index.html
+          type: code 
+        - name: Responsive Raster Images
+          path: /demos-completed/responsive-images/index.html
+          type: code 
+        - name: NYC Site – Responsive
+          path: /demos-completed/nyc-website-css/index.html
+          type: code 
         # - name: "Download: Responsive Grid Files"
         #   path: /assets/files/responsive-grid.zip
         #   type: download
