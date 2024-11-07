@@ -302,9 +302,9 @@ schedule:
         # - name: "Download: Responsive Grid Files"
         #   path: /assets/files/responsive-grid.zip
         #   type: download
-        # - name: Responsive Grid
-        #   path: /demos-completed/responsive-grid/index.html
-        #   type: code    
+        - name: Responsive Grid
+          path: /demos-completed/responsive-grid/index.html
+          type: code    
       - topics: Responsive Design (Workshop)
         due:
         files:
