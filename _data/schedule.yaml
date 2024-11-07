@@ -309,13 +309,13 @@ schedule:
         due:
         files:
         
-  # - week_number: 11
-  #   classes:
-  #     - topics: Javascript
-  #       due: 
-  #       - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/07.html)" 
-  #       - "Chapter 21: Introduction to JavaScript"
-  #       files:
+  - week_number: 11
+    classes:
+      - topics: Javascript
+        due: 
+        - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/07.html)" 
+        - "Chapter 21: Introduction to JavaScript"
+        files:
   #       # - name: Javascript_Day01.pdf
   #       #   path: /assets/slides/18_Javascript_Day1.pdf
   #       #   type: slides
@@ -331,12 +331,12 @@ schedule:
   #       # - name: "Class today? [Conditionals]"
   #       #   path: /demos-completed/javascript-day1/conditionals/
   #       #   type: code        
-  #     - topics: Javascript
-  #       due:
-  #       - "Chapter 22: Using JavaScript"
-  #       - "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>W3: HTML DOM Events</a>"
-  #       - "<a href='https://www.w3schools.com/css/css3_transitions.asp'>W3: CSS Transitions</a>" 
-  #       files:
+      - topics: Javascript
+        due:
+        - "Chapter 22: Using JavaScript"
+        - "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>W3: HTML DOM Events</a>"
+        - "<a href='https://www.w3schools.com/css/css3_transitions.asp'>W3: CSS Transitions</a>" 
+        files:
   #       # - name: Javascript_Day02.pdf
   #       #   path: /assets/slides/21_Javascript_Day2.pdf
   #       #   type: slides
