@@ -316,21 +316,21 @@ schedule:
         - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/07.html)" 
         - "Chapter 21: Introduction to JavaScript"
         files:
-  #       # - name: Javascript_Day01.pdf
-  #       #   path: /assets/slides/18_Javascript_Day1.pdf
-  #       #   type: slides
-  #       # - name: "Download: Javascript Day 1 Files"
-  #       #   path: /assets/files/javascript-day1.zip
-  #       #   type: download
-  #       # - name: "Greeting by time of day"
-  #       #   path: /demos-completed/javascript-day1/greeting/
-  #       #   type: code  
-  #       # - name: "JavaScript basics"
-  #       #   path: /demos-completed/javascript-day1/basics/
-  #       #   type: code  
-  #       # - name: "Class today? [Conditionals]"
-  #       #   path: /demos-completed/javascript-day1/conditionals/
-  #       #   type: code        
+        - name: Javascript_Day01.pdf
+          path: /assets/slides/20_Javascript_Day1.pdf
+          type: slides
+        - name: "Download: Javascript Day 1 Files"
+          path: /assets/files/javascript-day1.zip
+          type: download
+        - name: "Greeting by time of day"
+          path: /demos-completed/javascript-day1/greeting/
+          type: code  
+        # - name: "JavaScript basics"
+        #   path: /demos-completed/javascript-day1/basics/
+        #   type: code  
+        # - name: "Class today? [Conditionals]"
+        #   path: /demos-completed/javascript-day1/conditionals/
+        #   type: code        
       - topics: Javascript
         due:
         - "Chapter 22: Using JavaScript"
