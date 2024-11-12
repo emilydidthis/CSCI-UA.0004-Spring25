@@ -1,19 +1,20 @@
-let day = new Date().getDay() // creating a date and getting the day in the same line of code
+let day = new Date().getDay(); // get the day of the week (0-6)
+console.log(day); // Tuesday is 2
 
-let reply; // initializing reply
+let reply; // initialize a variable to store the message reply
 
-// verify day in console
-console.log("Day: ", day) // Sunday is 0, Monday is 1
 
-// we have class on Mondays (1) and Wednesdays (3)
-if (day == 1 || day == 3) {
-    reply = "Yes, you have Web Design today.";
-} else if (day == 6 || day == 0 ){ // Saturday or Sunday
-    reply = "On the weekend?";
-} else {
-    reply = "No, you do not have class today.";
+if (day == 2 || day == 4){ // if the day is Tues (2) or Thurs (4)
+    reply = "Yes, you have class today!";
+}
+else if (day == 6 || day == 0){ // if the day is Sat (6) or Sun (0)
+    reply = "No, on a weekend?";
+} 
+else { // the rest of the days of the week where day is 1, 3, 5
+    reply = "No, you don't have class today.";
 }
 
-console.log(reply, day);
+// access the HTML element with ID 'answer' 
 let answer = document.getElementById("answer");
+// and set its text content to display the reply
 answer.textContent = reply;

@@ -325,12 +325,12 @@ schedule:
         - name: "Greeting by time of day"
           path: /demos-completed/javascript-day1/greeting/
           type: code  
-        # - name: "JavaScript basics"
-        #   path: /demos-completed/javascript-day1/basics/
-        #   type: code  
-        # - name: "Class today? [Conditionals]"
-        #   path: /demos-completed/javascript-day1/conditionals/
-        #   type: code        
+        - name: "JavaScript basics"
+          path: /demos-completed/javascript-day1/basics/script.js
+          type: code  
+        - name: "Class today? [Conditionals]"
+          path: /demos-completed/javascript-day1/conditionals/
+          type: code        
       - topics: Javascript
         due:
         - "Chapter 22: Using JavaScript"
