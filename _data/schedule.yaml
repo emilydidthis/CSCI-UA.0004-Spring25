@@ -380,7 +380,7 @@ schedule:
   #       #   type: code      
       - topics: Forms
         due:
-        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Spring24/assignments/08.html)" 
+        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
         - "Chapter 9: Forms"
         - "<a href='https://formspree.io/'>Formspree</a>"
         - "<a href='https://www.w3schools.com/html/html_form_input_types.asp'>W3: Input Types</a>"
