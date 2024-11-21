@@ -56,7 +56,7 @@ Attendance + Participation: 10%
 ### Midterm 
 Tuesday, October 22 | 3:30PM-4:45PM | In-class
 ### Final
-Thursday, December 19 | 2:00PM-3:15PM | [Room TBA](https://cs.nyu.edu/dynamic/courses/exams/?level=UA)
+Thursday, December 12 | 3:30PM-4:45PM | In-class
 
 ## Attendance + Participation
 Due to the sequential nature of this course, consistent and punctual in-person attendance is essential and will be factored into your grade. If you plan on missing a class due to religious observance, military commitment or an NYU athletic commitment, please fill out the [short term absence form]({{site.absence-form}}), as these are considered excused absences as per NYU attendance policy. Filling out the form must be done prior to the absence and cannot be filled out retroactively. If you are feeling ill, please notify me the day of via Ed by posting a private thread under the Admin category.
