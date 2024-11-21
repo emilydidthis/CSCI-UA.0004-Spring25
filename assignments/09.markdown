@@ -4,7 +4,7 @@ title: "Assignment #9"
 assign-date: Nov 26
 due-date: Dec 10
 topic: Final Project
-live: false
+live: true
 ---
 
 ## Final Project
