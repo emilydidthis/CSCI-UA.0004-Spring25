@@ -417,7 +417,7 @@ schedule:
           path: /demos-completed/audio-video/video-player.html
           type: code 
         - name: Mario Soundboard
-          path: /demos-completed/audio-video/mario-sounds.html
+          path: /demos-completed/audio-video/mario-soundboard/
           type: code
       - topics: "*Thanksgiving Recess*"
   - week_number: 14
@@ -435,16 +435,16 @@ schedule:
         # - <a href="https://www.pair.com/">Pair Networks</a>
         # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
         - <a href="https://analytics.google.com/">Google Analytics</a>
-        # files:
+        files:
         # - name: VersionControl.pdf
         #   path: /assets/slides/25_VersionControl.pdf
         #   type: slides
-        # - name: "Download: Github Practice Files"
-        #   path: /assets/files/github-practice.zip
-        #   type: download 
-        # - name: "Download: NEW Github Practice Files"
-        #   path: /assets/files/github-2.zip
-        #   type: download  
+        - name: "Download: Github Practice Files"
+          path: /assets/files/github-practice.zip
+          type: download 
+        - name: "Download: NEW Github Practice Files"
+          path: /assets/files/github-2.zip
+          type: download  
         # - name: NYC Website Repository
         #   path: https://github.com/emilydidthis/nyc-website
         #   type: external code

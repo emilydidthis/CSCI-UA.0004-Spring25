@@ -1,0 +1,16 @@
+body {
+    background-image: url("assets/mario-bg.jpeg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-attachment: fixed;
+
+    height: 100vh; /* make the body the entire height of the browser*/
+
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /* vertically center images*/
+    
+
+}
