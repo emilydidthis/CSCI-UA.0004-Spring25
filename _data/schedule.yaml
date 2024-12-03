@@ -436,18 +436,12 @@ schedule:
         # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
         - <a href="https://analytics.google.com/">Google Analytics</a>
         files:
-        # - name: VersionControl.pdf
-        #   path: /assets/slides/25_VersionControl.pdf
-        #   type: slides
-        - name: "Download: Github Practice Files"
-          path: /assets/files/github-practice.zip
-          type: download 
-        - name: "Download: NEW Github Practice Files"
-          path: /assets/files/github-2.zip
-          type: download  
-        # - name: NYC Website Repository
-        #   path: https://github.com/emilydidthis/nyc-website
-        #   type: external code
+        - name: VersionControl_WebHosting.pdf
+          path: /assets/slides/25_Github_WebHosting.pdf
+          type: slides
+        - name: Mario Soundboard Repository
+          path: https://github.com/emilydidthis/mario-soundboard
+          type: external code
       - topics: Web Design Workshop
         due: 
         files:
@@ -468,6 +462,12 @@ schedule:
         # - name: "Download: Review Site Files"
         #   path: /assets/files/final-review.zip
         #   type: download
+        - name: "Practice Final"
+          path: /assets/files/web-mock-final-sp24.pdf
+          type: slides
+        - name: "Practice Final — ANSWERS"
+          path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
+          type: slides  
       - topics: Final Exam
         due: 
         files:
