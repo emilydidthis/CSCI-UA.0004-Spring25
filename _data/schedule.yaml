@@ -462,12 +462,15 @@ schedule:
         # - name: "Download: Review Site Files"
         #   path: /assets/files/final-review.zip
         #   type: download
-        - name: "Practice Final"
+        - name: "Practice Final – MC"
           path: /assets/files/web-mock-final-sp24.pdf
           type: slides
-        - name: "Practice Final — ANSWERS"
+        - name: "Practice Final — MC – ANSWERS"
           path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
-          type: slides  
+          type: slides
+        - name: "[ed] Recreate Website Practice"
+          path: https://edstem.org/us/courses/65705/lessons/124122/slides/688966
+          type: external code   
       - topics: Final Exam
         due: 
         files:
