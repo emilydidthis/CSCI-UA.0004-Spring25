@@ -456,9 +456,9 @@ schedule:
         - "[Assignment #9 – Final Project](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html)" 
 
         files:
-        # - name: FinalReviewAgenda.pdf
-        #   path: /assets/slides/17_FinalReview.pdf
-        #   type: slides 
+        - name: FinalReview.pdf
+          path: /assets/slides/30_FinalReview.pdf
+          type: slides 
         # - name: "Download: Review Site Files"
         #   path: /assets/files/final-review.zip
         #   type: download
