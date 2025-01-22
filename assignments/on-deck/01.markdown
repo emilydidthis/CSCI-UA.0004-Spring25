@@ -5,7 +5,7 @@ title: "Assignment #1"
 assign-date: Sept 5
 due-date: Sept 12
 topic: Unix
-live: true
+live: false
 category: assignment
 
 ---

@@ -45,7 +45,7 @@ Assignments that you turn in should be your own work. It’s fine to talk to oth
 <div class="column-2">
 
 
-{% for page in site.pages %}
+<!-- {% for page in site.pages %}
     {% if page.layout == "assignments" %}
         {% if page.live == true %}
         <h2><a href="{{ page.url | relative_url }}"> {{ page.title }}</a></h2>
@@ -56,7 +56,7 @@ Assignments that you turn in should be your own work. It’s fine to talk to oth
         <p>Assignment date: {{ page.assign-date}}</p>
         <p>Due date: {{ page.due-date}}</p>
     {% endif %}      
-{% endfor %}
+{% endfor %} -->
 
 
 </div>
