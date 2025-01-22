@@ -4,7 +4,7 @@
 
 # layout: home
 layout: default
-title: Intro to Web Design + Computer Principles - Fall 2024
+title: Intro to Web Design + Computer Principles - Spring 2025
 ---
 
 <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/styles.css">

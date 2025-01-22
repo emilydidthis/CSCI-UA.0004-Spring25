@@ -18,20 +18,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Intro to Web Design & Computer Principles – Fall 2024
+title: Intro to Web Design & Computer Principles – Spring 2025
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/CSCI-UA.0004-Fall24" # the subpath of your site, e.g. /blog
+baseurl: "/CSCI-UA.0004-Spring25" # the subpath of your site, e.g. /blog
 url: "https://emilydidthis.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-brightspace: "https://brightspace.nyu.edu/d2l/home/403055"
-common_syllabus: "https://cs.nyu.edu/courses/fall24/CSCI-UA.0004-004/common-syllabus/"
-ed: "https://edstem.org/us/courses/65705/"
-office-hours: "https://calendar.app.google/pfgkvWer2bDyNeiR7"
+brightspace: "https://brightspace.nyu.edu/d2l/home/443539"
+common_syllabus: "https://cs.nyu.edu/courses/spring25/CSCI-UA.0004-004/common-syllabus/"
+ed: "https://edstem.org/us/courses/74285/"
+office-hours: "https://calendar.app.google/rK152FmDkcQW7vbi8"
 absence-form: "https://forms.gle/s4DM6yL4s4SUnkfSA"
 
 

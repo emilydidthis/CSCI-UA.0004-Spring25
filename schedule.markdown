@@ -31,8 +31,9 @@ title: Schedule + Class Notes
 <div class="week-column assigned" markdown="1">
 
 ### Due
+
 {% for hw in class.due %}
-- {{ hw }}
+  - {{ hw  }}
 {% endfor%}
 
 </div>
