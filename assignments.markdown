@@ -15,7 +15,7 @@ All assignments should be submitted via [Ed]({{site.ed}}lessons/) by 11:59pm on 
 ## Ed Lessons
 In certain weeks, as part of your self-paced learning, you will need to complete [Ed Lessons]({{site.ed}}lessons/) in preparation for the week's lecture. These assignments each contain a short video lesson along with a small programming task for you to perform. They are due right before our class meeting at 12:30 pm to ensure that everyone has a baseline level of knowledge to make the most of our time together during our weekly course meetings.
 
-For a full outline of assignment Ed lesson due dates, please refer to the "Schedule of Dates" page in Brightspace, or the Schedule + Notes tab on this website.
+For a full outline of assignment Ed lesson due dates, please refer to the Schedule + Notes tab on this website.
 
 ## Submitting Assignments
 
