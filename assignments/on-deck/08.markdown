@@ -2,8 +2,8 @@
 
 layout: assignments
 title: "Assignment #8"
-assign-date: Nov 12
-due-date: Nov 26
+assign-date: 
+due-date: 
 topic: JavaScript
 live: false
 

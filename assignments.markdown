@@ -44,9 +44,9 @@ Assignments that you turn in should be your own work. It’s fine to talk to oth
 
 <div class="column-2">
 
-
+{% assign counter = 0 %}
 {% for page in site.pages %}
-    {% if page.layout == "assignments" %}
+    {% if page.layout == "assignments" and counter < 5 %}
         {% if page.live == true %}
         <h2><a href="{{ page.url | relative_url }}"> {{ page.title }}</a></h2>
         {% else %}
@@ -55,6 +55,7 @@ Assignments that you turn in should be your own work. It’s fine to talk to oth
         <p><strong>{{ page.topic }}</strong></p>
         <p>Assignment date: {{ page.assign-date}}</p>
         <p>Due date: {{ page.due-date}}</p>
+        {% assign counter = counter | plus: 1 %}
     {% endif %}      
 {% endfor %}
 
