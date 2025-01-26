@@ -2,38 +2,40 @@
 
 layout: assignments
 title: "Assignment #1"
-assign-date: Sept 5
-due-date: Sept 12
+assign-date: Jan 27
+due-date: Jan 29
 topic: Unix
-live: false
+live: true
 category: assignment
 
 ---
 
 ## Unix
-In this assignment you will create a basic Web page and publish it on a Unix server at i6.cims.nyu.edu/~netid. A step by step video walkthrough is available on [Ed Lessons](https://edstem.org/us/courses/65705/lessons/116470/slides/646356).
+In this assignment you will create a basic Web page and publish it on a Unix server at i6.cims.nyu.edu/~netid. A step by step video walkthrough is available on [Ed Lessons](https://edstem.org/us/courses/74285/lessons/129531/slides/728622).
 
 <div class="section-break"><br></div>
 
 
-### Account Information
-In order to set up your Web page you need to log in to your i6 account. Here is the information necessary to log in to your account.
+### Step 1: Locate Your i6 Account Information
+In order to set up your Web page you need to log in to your i6 account. Note that a VPN is required to [access i6 from off campus](https://www.nyu.edu/life/information-technology/infrastructure/network-services/vpn.html). Here is the information necessary to log in to your account:
 
 Hostname: i6.cims.nyu.edu
 
 Login: *Your NYU NetID*
 
 Password: *The password given to you by Courant*  
-Your i6 account information was sent to you via email from helpdesk@cims.nyu.edu with the subject, “Welcome to Courant.” If you forget your i6 password and would like to reset it, go to this page for instructions on how to do so.
+
+Your i6 account information was sent to you via email from helpdesk@cims.nyu.edu with the subject, “Welcome to Courant.” If you forget your i6 password and would like to reset it, go to [this page](https://cims.nyu.edu/webapps/content/systems/resources/i6/resetpassword) for instructions on how to do so.
 
 Web directory: public_html  
+
 This is the folder on i6 accounts that will serve files to the Web. All HTML and image files should be uploaded into this folder (or its subdirectories) to be viewed on the Web. Do not delete public_html.
 
 Web page address (URL): i6.cims.nyu.edu/~netid
 
 <div class="section-break"><br></div>
 
-### Accessing i6 from the Command Line
+### Step 2: Accessing i6 from the Command Line
 **Mac and Linux Computers**  
 Mac and Linux users can use Terminal to access i6 from the command line. Terminal is available in macOS via Applications > Utilities > Terminal.
 
@@ -54,7 +56,7 @@ If you have problems logging into your i6 account, speak with your instructor as
 
 <div class="section-break"><br></div>
 
-### Writing Your Web Page
+### Step 3: Creating Your Home Page
 Next, you need to write your page with a plain text editor. Use [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), or [Notepad++](https://notepad-plus-plus.org/) to create a new plain text document. Type the HTML code below into the document. Then enter your name inside the `<title>` tag and a short self introduction inside the `<p>` tag.
 
 ```
@@ -85,20 +87,26 @@ Save this file as “index.html” on your computer. View the page locally in a 
 
 <div class="section-break"><br></div>
 
-### Publishing Your Web Page
+### Step 4: Upload Your Web Page to the i6 Server
 Next, you will use an SFTP client to transfer your “index.html” file from your computer to the i6 server.
 
-[Cyberduck](https://cyberduck.io/) is a free and open-source SFTP client for Mac and Windows. Alternatives include [Transmit](https://panic.com/transmit/) and [Fetch](https://www.nyu.edu/life/information-technology/getting-started/software.html) for Mac, [WinSCP](https://winscp.net/) for Windows, and [FileZilla](https://filezilla-project.org/) for Mac, Windows, and Linux. Whatever program you use, be sure to connect to i6 using SFTP (as opposed to FTP).
+<!-- [Cyberduck](https://cyberduck.io/) is a free and open-source SFTP client for Mac and Windows. Alternatives include [Transmit](https://panic.com/transmit/) -->
 
-Here is an example of an FTP client’s login screen. Fill it in as follows but with your own NetID and i6 password and connect using “SFTP.” After logging in, you can upload files to the web server and also download files from the server.
+[Fetch](https://www.nyu.edu/life/information-technology/getting-started/software.html) is an SFTP program for Mac, [WinSCP](https://winscp.net/) for Windows, and [FileZilla](https://filezilla-project.org/) for Mac, Windows, and Linux. Whatever program you use, be sure to connect using SFTP (as opposed to FTP, which is not secure). 
 
-![]({{ site.url }}{{ site.baseurl }}{{"/assets/images/SFTP-login-cyberduck.png"}})
+Here is an example of an FTP client’s login screen (Fetch). Fill it in as follows but with your own NetID and click "Connect."
+
+![]({{ site.url }}{{ site.baseurl }}{{"/assets/images/fetch01.png"}})
+
+*Note for Fetch users on a Mac: When you download the ZIP file for Fetch it be a "trial" version -- you can [upgrade this to a full educational version by applying for a free upgrade license here](https://fetchsoftworks.com/fetch/free).*
+
+After logging in, you can upload files to the web server and also download files from the server.
 
 Upload the index.html file from your computer to the public_html folder of your i6 account. Once you have uploaded the file, check to make sure your Web page is visible at: i6.cims.nyu.edu/~netid
 
 <div class="section-break"><br></div>
 
-### Setting Permissions
+### Step 5: Fixing Permissions (if needed)
 If your page is not visible when you try to access it at i6.cims.nyu.edu/~netid and you get a 403 (Forbidden) error, you may need to change who can access your site by setting its “permissions.”
 
 Log into i6 with Terminal or PuTTY and type the following commands in this order at the Unix system prompt (represented here by the `$` sign). Be sure to type commands exactly as they are written and do not include the `$`.
@@ -115,7 +123,7 @@ Your page should now be accessible to you and the world.
 
 <div class="section-break"><br></div>
 
-### Submitting Your Assignment
+### Step 6: Submitting Your Assignment
 Submit the following via [Ed]({{site.ed}}):
 
 - The index.html file, uploaded as an attachment to the workspace
@@ -128,5 +136,5 @@ Please note that you are required to submit files along with URLs in order to re
 ### Grading
 This assignment will be graded as complete or incomplete.
 
-- Studentʼs web page has been set up at the URL they provide.
+- Student's web page has been set up at the URL they provide.
 - Web page has been customized with the student’s name and self-introduction.
