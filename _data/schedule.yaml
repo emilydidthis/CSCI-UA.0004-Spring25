@@ -25,53 +25,54 @@ schedule:
         #   path: /assets/slides/02_unix_template.pdf
         #   type: slides
       - topics: Unix + HTML
-        due: 
+        due:
+        - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/01.html) (step by step walkthrough on [Ed](https://edstem.org/us/courses/74285/lessons/129531/slides/728623))" 
         - "Chapter 4: Creating a Simple Page"
         files:
         # - name: intro-to-html.pdf
         #   path: /assets/slides/03_unix_html_template.pdf
         #   type: slides
 
-  # - week_number: 3
-  #   classes:
-  #     - topics: HTML
-  #       due: 
-  #       - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/65705/lessons/116472/slides/646362)"
-  #       - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/01.html) (step by step walkthrough on Ed)"
-  #       - "Chapter 5: Marking Up Text"
-  #       files:
-  #       # - name: html-filepaths.pdf
-  #       #   path: /assets/slides/04_html_filepaths_template.pdf
-  #       #   type: slides
-  #       # - name: HTML Errors
-  #       #   path: /demos-completed/html-errors.html
-  #       #   type: code
-  #       # - name: "Download: Street Directory"
-  #       #   path: /assets/files/street.zip
-  #       #   type: download
-  #       # - name: "Download: NYC Starter files"
-  #       #   path: /assets/files/nyc-starter-files.zip
-  #       #   type: download
-  #     - topics: HTML (Workshop)
-  #       due: 
-  #       - "Chapter 6: Adding Links"
-  #       - "Chapter 7: Adding Images"
-  #       files:
-  #       # - name: HTML_workshop.pdf
-  #       #   path: /assets/slides/05_html_workshop_template.pdf
-  #       #   type: slides
-  #       # - name: "Download: NYC HTML Files"
-  #       #   path: assets/files/nyc-website-html-starting.zip
-  #       #   type: download
-  #       # - name: NYC Site – Final HTML
-  #       #   path: /demos-completed/nyc-website-html/
-  #       #   type: code
+  - week_number: 3
+    classes:
+      - topics: HTML
+        due: 
+        - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/74285/lessons/129531/slides/728623)"
+        - "Chapter 5: Marking Up Text"
+        files:
+        # - name: html-filepaths.pdf
+        #   path: /assets/slides/04_html_filepaths_template.pdf
+        #   type: slides
+        # - name: HTML Errors
+        #   path: /demos-completed/html-errors.html
+        #   type: code
+        # - name: "Download: Street Directory"
+        #   path: /assets/files/street.zip
+        #   type: download
+        # - name: "Download: NYC Starter files"
+        #   path: /assets/files/nyc-starter-files.zip
+        #   type: download
+      - topics: HTML (Workshop)
+        due:
+        - "Assignment #2 – HTML" 
+        - "Chapter 6: Adding Links"
+        - "Chapter 7: Adding Images"
+        files:
+        # - name: HTML_workshop.pdf
+        #   path: /assets/slides/05_html_workshop_template.pdf
+        #   type: slides
+        # - name: "Download: NYC HTML Files"
+        #   path: assets/files/nyc-website-html-starting.zip
+        #   type: download
+        # - name: NYC Site – Final HTML
+        #   path: /demos-completed/nyc-website-html/
+        #   type: code
   # - week_number: 4
   #   classes:
   #     - topics: CSS
   #       due:
   #       - "[Ed Lesson: CSS Basics](https://edstem.org/us/courses/65705/lessons/116473/slides/646365)"
-  #       - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/02.html)"
+  #       
   #       - "Chapter 11: Introducing Cascading Style Sheets"
   #       - "Chapter 12: Formatting Text"
   #       files:
