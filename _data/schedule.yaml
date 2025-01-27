@@ -21,9 +21,9 @@ schedule:
         - "Post a question on [Ed](https://edstem.org/us/courses/74285/discussion/)"
         - "Chapter 2: How the Web Works"
         files:
-        # - name: operating-systems.pdf
-        #   path: /assets/slides/02_unix_template.pdf
-        #   type: slides
+        - name: operating-systems.pdf
+          path: https://docs.google.com/presentation/d/1RnK-GbVF0QpTd4EqlFTtL8fSc2NIe9VegJnwJopopWQ/preview
+          type: external code
       - topics: Unix + HTML
         due:
         - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/01.html) (step by step walkthrough on [Ed](https://edstem.org/us/courses/74285/lessons/129531/slides/728623))" 
