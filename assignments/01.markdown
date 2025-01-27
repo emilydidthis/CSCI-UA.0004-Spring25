@@ -45,7 +45,7 @@ At the `$` prompt, type in the following—substituting netid with your NetID—
 **Windows Computers**  
 PC users can download and use [PuTTY](https://www.putty.org/), an SSH and telnet client, to access i6.
 
-Type in the name of the host which, in our case, is i6.cims.nyu.edu; select “SSH” and click “Open.” For reference, [here is a screenshot](https://cs.nyu.edu/courses/fall23/CSCI-UA.0004-004/assignments/unix/putty-i6.gif) of a PuTTY Configuration window.
+Type in the name of the host which, in our case, is i6.cims.nyu.edu; select “SSH” and click “Open.” For reference, [here is a screenshot](https://cs.nyu.edu/courses/fall23/CSCI-UA.0004-004/assignments/unix/putty-i6.gif) of a PuTTY Configuration window. Click open and login with your [netID and password]({{ site.url }}{{ site.baseurl }}{{ "/assets/images/putty-login.png"}}).
 
 **Your Password**  
 Next, enter your i6 password—which is case-sensitive. The cursor does not move as you type your password, but when you press Enter you should be logged in.
