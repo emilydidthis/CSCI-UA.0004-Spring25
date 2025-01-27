@@ -10,7 +10,7 @@ title: Assignments
 ## Assignments
 The semester is comprised of 9 project-based assignments.
 
-All assignments should be submitted via [Ed]({{site.ed}}lessons/) by 11:59pm on the day they are due. Instructions for each assignment can be found here, on the class website, by clicking on the assignment link.
+All assignments should be submitted via [Ed](https://edstem.org/us/courses/74285/lessons/129531/slides/728623) by 11:59pm on the day they are due. Instructions for each assignment can be found here, on the class website, by clicking on the assignment link.
 
 ## Ed Lessons
 In certain weeks, as part of your self-paced learning, you will need to complete [Ed Lessons]({{site.ed}}lessons/) in preparation for the week's lecture. These assignments each contain a short video lesson along with a small programming task for you to perform. They are due right before our class meeting at 12:30 pm to ensure that everyone has a baseline level of knowledge to make the most of our time together during our weekly course meetings.
