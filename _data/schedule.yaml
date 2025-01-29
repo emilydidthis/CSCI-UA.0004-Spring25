@@ -37,7 +37,7 @@ schedule:
     classes:
       - topics: HTML
         due: 
-        - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/74285/lessons/129531/slides/728623)"
+        - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/74285/lessons/129534/slides/728630)"
         - "Chapter 5: Marking Up Text"
         files:
         # - name: html-filepaths.pdf
