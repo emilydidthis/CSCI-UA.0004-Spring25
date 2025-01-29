@@ -29,9 +29,9 @@ schedule:
         - "[Assignment #1 – Unix](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/01.html) (step by step walkthrough on [Ed](https://edstem.org/us/courses/74285/lessons/129531/slides/728623))" 
         - "Chapter 4: Creating a Simple Page"
         files:
-        # - name: intro-to-html.pdf
-        #   path: /assets/slides/03_unix_html_template.pdf
-        #   type: slides
+        - name: intro-to-html.pdf
+          path: https://docs.google.com/presentation/d/1a3gNJA4izpXMAp6v43VhChu-rjdb304B0ZfJ-MW8iEQ/preview
+          type: external code
 
   - week_number: 3
     classes:
