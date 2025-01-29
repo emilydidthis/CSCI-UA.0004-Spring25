@@ -96,7 +96,7 @@ Next, you will use an SFTP client to transfer your “index.html” file from yo
 
 Here is an example of an FTP client’s login screen (Fetch). Fill it in as follows but with your own NetID and click "Connect."
 
-![]({{ site.url }}{{ site.baseurl }}{{"/assets/images/fetch01.png"}})
+![]({{ site.url }}{{ site.baseurl }}{{"/assets/images/SFTP-login-fetch.png"}})
 
 *Note for Fetch users on a Mac: When you download the ZIP file for Fetch it be a "trial" version -- you can [upgrade this to a full educational version by applying for a free upgrade license here](https://fetchsoftworks.com/fetch/free).*
 
