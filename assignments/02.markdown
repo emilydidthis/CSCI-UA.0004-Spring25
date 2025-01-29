@@ -5,7 +5,7 @@ title: "Assignment #2"
 assign-date: Jan 29
 due-date: Feb 5
 topic: HTML
-live: false
+live: true
 
 ---
 

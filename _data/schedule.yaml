@@ -54,7 +54,7 @@ schedule:
         #   type: download
       - topics: HTML (Workshop)
         due:
-        - "Assignment #2 – HTML" 
+        - "[Assignment #2 – HTML](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/02.html)" 
         - "Chapter 6: Adding Links"
         - "Chapter 7: Adding Images"
         files:
