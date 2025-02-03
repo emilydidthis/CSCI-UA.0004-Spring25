@@ -40,12 +40,12 @@ schedule:
         - "[Ed Lesson: HTML Basics](https://edstem.org/us/courses/74285/lessons/129534/slides/728630)"
         - "Chapter 5: Marking Up Text"
         files:
-        # - name: html-filepaths.pdf
-        #   path: /assets/slides/04_html_filepaths_template.pdf
-        #   type: slides
+        - name: html-filepaths.pdf
+          path: https://docs.google.com/presentation/d/18odS2vCXgja234vbLz6mHqCXnvkYyZmsm0KiXdKZFcU/preview
+          type: external code
         # - name: HTML Errors
         #   path: /demos-completed/html-errors.html
-        #   type: code
+        #   type: 
         # - name: "Download: Street Directory"
         #   path: /assets/files/street.zip
         #   type: download
