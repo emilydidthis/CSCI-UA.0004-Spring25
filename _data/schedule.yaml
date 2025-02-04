@@ -43,6 +43,9 @@ schedule:
         - name: html-filepaths.pdf
           path: https://docs.google.com/presentation/d/18odS2vCXgja234vbLz6mHqCXnvkYyZmsm0KiXdKZFcU/preview
           type: external code
+        - name: NYC Site
+          path: https://web.us.edusercontent.com/u9sf60lsoe6bmpe8730lfvk52c/
+          type: external code
         # - name: HTML Errors
         #   path: /demos-completed/html-errors.html
         #   type: 
