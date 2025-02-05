@@ -61,9 +61,9 @@ schedule:
         - "Chapter 6: Adding Links"
         - "Chapter 7: Adding Images"
         files:
-        # - name: HTML_workshop.pdf
-        #   path: /assets/slides/05_html_workshop_template.pdf
-        #   type: slides
+        - name: HTML_workshop.pdf
+          path: https://docs.google.com/presentation/d/1aBLyB8hgHqnJI0D2hcmjNusk9H17vD1m9-58xr6evlA/preview
+          type: external code
         # - name: "Download: NYC HTML Files"
         #   path: assets/files/nyc-website-html-starting.zip
         #   type: download
