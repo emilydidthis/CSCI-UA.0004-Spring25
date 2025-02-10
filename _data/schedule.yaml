@@ -116,14 +116,14 @@ schedule:
     classes:
       - topics: CSS (Review + Workshop)
         due:
-        - "Nothing due"
+        - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
+
         files:
         # - name: NYC Site – CSS Day 3
         #   path: /demos-completed/nyc-website-css/
         #   type: code
       - topics: Raster Graphics
         due: 
-        - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
         - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/74285/lessons/129538/slides/728641)"
         - "Chapter 23: Web Image Basics"
         - "Chapter 24: Image Asset Production"
