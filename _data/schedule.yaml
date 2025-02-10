@@ -61,7 +61,7 @@ schedule:
         - "Chapter 6: Adding Links"
         - "Chapter 7: Adding Images"
         files:
-        - name: HTML_workshop.pdf
+        - name: html-workshop.pdf
           path: https://docs.google.com/presentation/d/1aBLyB8hgHqnJI0D2hcmjNusk9H17vD1m9-58xr6evlA/preview
           type: external code
         # - name: "Download: NYC HTML Files"
@@ -70,88 +70,88 @@ schedule:
         # - name: NYC Site – Final HTML
         #   path: /demos-completed/nyc-website-html/
         #   type: code
-  # - week_number: 4
-  #   classes:
-  #     - topics: CSS
-  #       due:
-  #       - "[Ed Lesson: CSS Basics](https://edstem.org/us/courses/65705/lessons/116473/slides/646365)"
-  #       
-  #       - "Chapter 11: Introducing Cascading Style Sheets"
-  #       - "Chapter 12: Formatting Text"
-  #       files:
-  #       # - name: CSS-day1.pdf
-  #       #   path: /assets/slides/06_css_day1_template.pdf
-  #       #   type: slides
-  #       # - name: "Download: NYC Final HTML Files"
-  #       #   path: /assets/files/nyc-website-final-html.zip
-  #       #   type: download
-  #       # - name: "NYC Website – CSS"
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
-  #     - topics: CSS
-  #       due:
-  #       - "[Ed Lessons: Box Model + Flexbox](https://edstem.org/us/courses/65705/lessons/116474/slides/646366)" 
-  #       - "Chapter 13: Colors and Backgrounds"
-  #       - "Chapter 14: Thinking Inside the Box"
-  #       files:
-  #       # - name: CSS-day2.pdf
-  #       #   path: /assets/slides/07_css_day02.pdf
-  #       #   type: slides
-  #       # - name: "Download: NYC CSS Day2 Files"
-  #       #   path: /assets/files/nyc-website-css-starting-day2.zip
-  #       #   type: download
-  #       # - name: "Download: `nyc-seal.png`"
-  #       #   path: /demos-completed/nyc-website-css/images/nyc-seal.png
-  #       #   type: download
-  #       # - name: "Download: Box Model + Flexbox Files"
-  #       #   path: /assets/files/box-flex-practice.zip
-  #       #   type: download
-  #       # - name: "NYC Website – CSS Day 2"
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
-  #       # - name: Box Model + FlexBox Review Site
-  #       #   path: /demos-completed/box-flex-practice/
-  #       #   type: code
-  # - week_number: 5
-  #   classes:
-  #     - topics: CSS (Review + Workshop)
-  #       due:
-  #       - "Nothing due"
-  #       files:
-  #       # - name: NYC Site – CSS Day 3
-  #       #   path: /demos-completed/nyc-website-css/
-  #       #   type: code
-  #     - topics: Raster Graphics
-  #       due: 
-  #       - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/03.html)"
-  #       - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/65705/lessons/116475/slides/646370)"
-  #       - "Chapter 15: Floating and Positioning"
-  #       files:
-  #       # - name: raster-graphics_day1.pdf
-  #       #   path: /assets/slides/10_raster-graphics.pdf
-  #       #   type: slides
-  #       # - name: Canal image in four file formats
-  #       #   path: /demos-completed/images-for-web/
-  #       #   type: code
-  #       # - name: "Download: Demo Images"
-  #       #   path: /assets/files/images-for-raster-graphics.zip/
-  #       #   type: download
-  #       # - name: Adobe Photoshop Free Trial
-  #       #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
-  #       #   type: external code
-  #       # - name: LaGuardia Student Technology Center
-  #       #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
-  #       #   type: external code
-  #       # - name: GNU Image Manipulation Program (GIMP)
-  #       #   path: https://www.gimp.org/
-  #       #   type: external code
+  - week_number: 4
+    classes:
+      - topics: CSS
+        due:
+        - "[Ed Lesson: CSS Basics](https://edstem.org/us/courses/74285/lessons/129535/slides/728631)"
+        
+        - "Chapter 11: Introducing Cascading Style Sheets"
+        - "Chapter 12: Formatting Text"
+        files:
+        - name: css-day1.pdf
+          path: 'https://docs.google.com/presentation/d/1pWENo0Woce6TL-PuVGi9NecjTOfveqMRa8BFJNuBCR0/preview'
+          type: external code
+        # - name: "Download: NYC Final HTML Files"
+        #   path: /assets/files/nyc-website-final-html.zip
+        #   type: download
+        # - name: "NYC Website – CSS"
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
+      - topics: CSS
+        due:
+        - "[Ed Lessons: Box Model + Flexbox](https://edstem.org/us/courses/74285/lessons/129536/slides/728634)" 
+        - "Chapter 13: Colors and Backgrounds"
+        - "Chapter 14: Thinking Inside the Box"
+        files:
+        # - name: CSS-day2.pdf
+        #   path: /assets/slides/07_css_day02.pdf
+        #   type: slides
+        # - name: "Download: NYC CSS Day2 Files"
+        #   path: /assets/files/nyc-website-css-starting-day2.zip
+        #   type: download
+        # - name: "Download: `nyc-seal.png`"
+        #   path: /demos-completed/nyc-website-css/images/nyc-seal.png
+        #   type: download
+        # - name: "Download: Box Model + Flexbox Files"
+        #   path: /assets/files/box-flex-practice.zip
+        #   type: download
+        # - name: "NYC Website – CSS Day 2"
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
+        # - name: Box Model + FlexBox Review Site
+        #   path: /demos-completed/box-flex-practice/
+        #   type: code
+  - week_number: 5
+    classes:
+      - topics: CSS (Review + Workshop)
+        due:
+        - "Nothing due"
+        files:
+        # - name: NYC Site – CSS Day 3
+        #   path: /demos-completed/nyc-website-css/
+        #   type: code
+      - topics: Raster Graphics
+        due: 
+        - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
+        - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/74285/lessons/129538/slides/728641)"
+        - "Chapter 23: Web Image Basics"
+        - "Chapter 24: Image Asset Production"
+        files:
+        # - name: raster-graphics_day1.pdf
+        #   path: /assets/slides/10_raster-graphics.pdf
+        #   type: slides
+        # - name: Canal image in four file formats
+        #   path: /demos-completed/images-for-web/
+        #   type: code
+        # - name: "Download: Demo Images"
+        #   path: /assets/files/images-for-raster-graphics.zip/
+        #   type: download
+        # - name: Adobe Photoshop Free Trial
+        #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
+        #   type: external code
+        # - name: LaGuardia Student Technology Center
+        #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
+        #   type: external code
+        # - name: GNU Image Manipulation Program (GIMP)
+        #   path: https://www.gimp.org/
+        #   type: external code
   # - week_number: 6
   #   classes:
   #     - topics: Raster Graphics (Workshop)
   #       due:
-  #       - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/65705/lessons/116476/slides/646373)"
-  #       - "Chapter 23: Web Image Basics"
-  #       - "Chapter 24: Image Asset Production"
+  #       - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/74285/lessons/129537/slides/728638)"
+  #       - "Chapter 15: Floating and Positioning"
   #       files:
   #       # - name: RasterGraphics_AssignmentWalkingthrough.pdf
   #       #   path: /assets/slides/10_RasterGraphics-Condensed.pdf
