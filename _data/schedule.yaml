@@ -94,9 +94,9 @@ schedule:
         - "Chapter 13: Colors and Backgrounds"
         - "Chapter 14: Thinking Inside the Box"
         files:
-        # - name: CSS-day2.pdf
-        #   path: /assets/slides/07_css_day02.pdf
-        #   type: slides
+        - name: css-day2.pdf
+          path: https://docs.google.com/presentation/d/1jYTRznQDPTFdIDLgSuXBnCVupBXZVNIVuo_jvpsX0mo/preview
+          type: external code
         # - name: "Download: NYC CSS Day2 Files"
         #   path: /assets/files/nyc-website-css-starting-day2.zip
         #   type: download
