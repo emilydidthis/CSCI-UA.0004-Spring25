@@ -119,6 +119,9 @@ schedule:
         - "[Assignment #3 - CSS](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
 
         files:
+        - name: css-workshop.pdf
+          path: https://docs.google.com/presentation/d/1iK2go58PXEAQ5ioLRF2UpwQ_tw69rK5DHydCxxZR2UE/preview
+          type: external code
         # - name: NYC Site – CSS Day 3
         #   path: /demos-completed/nyc-website-css/
         #   type: code
@@ -146,59 +149,59 @@ schedule:
         # - name: GNU Image Manipulation Program (GIMP)
         #   path: https://www.gimp.org/
         #   type: external code
-  # - week_number: 6
-  #   classes:
-  #     - topics: Raster Graphics (Workshop)
-  #       due:
-  #       - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/74285/lessons/129537/slides/728638)"
-  #       - "Chapter 15: Floating and Positioning"
-  #       files:
-  #       # - name: RasterGraphics_AssignmentWalkingthrough.pdf
-  #       #   path: /assets/slides/10_RasterGraphics-Condensed.pdf
-  #       #   type: slides
-  #       # - name: "Download: Images to Resize"
-  #       #   path: /assets/files/raster-graphics-assets.zip
-  #       #   type: download
-  #       # - name: Sleepy Cat Final Site
-  #       #   path: /demos-completed/sleepy-cat/
-  #       #   type: code
-  #       # # - name: Grand Central image with <picture> element
-  #       # #   path: /demos-completed/picture-tag/
-  #       # #   type: code
-  #       # # - name: "Download: Moon Skater Files"
-  #       # #   path: /assets/files/moon-skater-files.zip
-  #       # #   type: download
-  #       # # - name: Moon Skater
-  #       # #   path: /demos-completed/moon-skater/
-  #       # #   type: code
+  - week_number: 6
+    classes:
+      - topics: Raster Graphics (Workshop)
+        due:
+        - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/74285/lessons/129537/slides/728638)"
+        - "Chapter 15: Floating and Positioning"
+        files:
+        # - name: RasterGraphics_AssignmentWalkingthrough.pdf
+        #   path: /assets/slides/10_RasterGraphics-Condensed.pdf
+        #   type: slides
+        # - name: "Download: Images to Resize"
+        #   path: /assets/files/raster-graphics-assets.zip
+        #   type: download
+        # - name: Sleepy Cat Final Site
+        #   path: /demos-completed/sleepy-cat/
+        #   type: code
+        # # - name: Grand Central image with <picture> element
+        # #   path: /demos-completed/picture-tag/
+        # #   type: code
+        # # - name: "Download: Moon Skater Files"
+        # #   path: /assets/files/moon-skater-files.zip
+        # #   type: download
+        # # - name: Moon Skater
+        # #   path: /demos-completed/moon-skater/
+        # #   type: code
 
-  #     - topics: Vector Graphics
-  #       due:
-  #       - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/04.html)"
-  #       - "[Ed Lessons: XML + SVG Basics](https://edstem.org/us/courses/65705/lessons/116477/slides/646378)"
-  #       - "Chapter 25: SVG"
-  #       # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
-  #       # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
-  #       # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
-  #       files:
-  #       # - name: vector-graphics.pdf
-  #       #   path: /assets/slides/11_VectorGraphics.pdf
-  #       #   type: slides
-  #       # - name: "Download: SVG Starter Files"
-  #       #   path: /assets/files/svg-starter-files.zip
-  #       #   type: download
-  #       # - name: SVG Exercise 1 (from Ed Lesson)
-  #       #   path: /demos-completed/svg-practice/example1.html
-  #       #   type: code
-  #       # - name: SVG Exercise 2
-  #       #   path: /demos-completed/svg-practice/example2.html
-  #       #   type: code
-  #       # - name: SVG Exercise 3
-  #       #   path: /demos-completed/svg-practice/example3.html
-  #       #   type: code
-  #       # - name: All the ways you can embed SVGs
-  #       #   path: /demos-completed/svg-practice/embed-svgs.html
-  #       #   type: code
+      - topics: Vector Graphics
+        due:
+        - "Assignment #4 – Raster Graphics"
+        - "[Ed Lessons: XML + SVG Basics](https://edstem.org/us/courses/65705/lessons/116477/slides/646378)"
+        - "Chapter 25: SVG"
+        # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
+        # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
+        # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
+        files:
+        # - name: vector-graphics.pdf
+        #   path: /assets/slides/11_VectorGraphics.pdf
+        #   type: slides
+        # - name: "Download: SVG Starter Files"
+        #   path: /assets/files/svg-starter-files.zip
+        #   type: download
+        # - name: SVG Exercise 1 (from Ed Lesson)
+        #   path: /demos-completed/svg-practice/example1.html
+        #   type: code
+        # - name: SVG Exercise 2
+        #   path: /demos-completed/svg-practice/example2.html
+        #   type: code
+        # - name: SVG Exercise 3
+        #   path: /demos-completed/svg-practice/example3.html
+        #   type: code
+        # - name: All the ways you can embed SVGs
+        #   path: /demos-completed/svg-practice/embed-svgs.html
+        #   type: code
   # - week_number: 7
   #   classes:
   #     - topics: Vector Graphics (Workshop)
