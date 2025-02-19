@@ -131,24 +131,24 @@ schedule:
         - "Chapter 23: Web Image Basics"
         - "Chapter 24: Image Asset Production"
         files:
-        # - name: raster-graphics_day1.pdf
-        #   path: /assets/slides/10_raster-graphics.pdf
-        #   type: slides
-        # - name: Canal image in four file formats
-        #   path: /demos-completed/images-for-web/
-        #   type: code
-        # - name: "Download: Demo Images"
-        #   path: /assets/files/images-for-raster-graphics.zip/
-        #   type: download
-        # - name: Adobe Photoshop Free Trial
-        #   path: https://www.adobe.com/products/photoshop/free-trial-download.html
-        #   type: external code
-        # - name: LaGuardia Student Technology Center
-        #   path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
-        #   type: external code
-        # - name: GNU Image Manipulation Program (GIMP)
-        #   path: https://www.gimp.org/
-        #   type: external code
+        - name: raster-graphics-day1.pdf
+          path: https://docs.google.com/presentation/d/1OVHQdpbUJEoCpmPihcxAnhI4li7AY-wF0sMbdC9oVEs/preview
+          type: external code
+        - name: Canal image in four file formats
+          path: /demos-completed/images-for-web/
+          type: code
+        - name: "Download: NYC Logo"
+          path: /assets/files/nyc-logo.png
+          type: download
+        - name: Adobe Photoshop Free Trial
+          path: https://www.adobe.com/products/photoshop/free-trial-download.html
+          type: external code
+        - name: LaGuardia Student Technology Center
+          path: https://www.nyu.edu/life/information-technology/teaching-and-learning-services/studios-and-computing-labs/student-technology-centers-computer-labs/laguardia.html
+          type: external code
+        - name: GNU Image Manipulation Program (GIMP)
+          path: https://www.gimp.org/
+          type: external code
   - week_number: 6
     classes:
       - topics: Raster Graphics (Workshop)
@@ -156,15 +156,15 @@ schedule:
         - "[Ed Lesson: CSS Positioning](https://edstem.org/us/courses/74285/lessons/129537/slides/728638)"
         - "Chapter 15: Floating and Positioning"
         files:
-        # - name: RasterGraphics_AssignmentWalkingthrough.pdf
-        #   path: /assets/slides/10_RasterGraphics-Condensed.pdf
-        #   type: slides
+        - name: raster-graphics-a4-walkthrough.pdf
+          path: https://docs.google.com/presentation/d/1TjZQ65_xKazWInkQbbs-vl_Sl_wMb061IB1cR2iDb6M/preview
+          type: external code
         # - name: "Download: Images to Resize"
         #   path: /assets/files/raster-graphics-assets.zip
         #   type: download
-        # - name: Sleepy Cat Final Site
-        #   path: /demos-completed/sleepy-cat/
-        #   type: code
+        - name: Sleepy Cat Final Site
+          path: /demos-completed/sleepy-cat/
+          type: code
         # # - name: Grand Central image with <picture> element
         # #   path: /demos-completed/picture-tag/
         # #   type: code
@@ -177,7 +177,7 @@ schedule:
 
       - topics: Vector Graphics
         due:
-        - "Assignment #4 – Raster Graphics"
+        - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
         - "[Ed Lessons: XML + SVG Basics](https://edstem.org/us/courses/65705/lessons/116477/slides/646378)"
         - "Chapter 25: SVG"
         # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
@@ -202,57 +202,57 @@ schedule:
         # - name: All the ways you can embed SVGs
         #   path: /demos-completed/svg-practice/embed-svgs.html
         #   type: code
-  # - week_number: 7
-  #   classes:
-  #     - topics: Vector Graphics (Workshop)
-  #       due:
-  #       - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
-  #       - <a href="https://www.youtube.com/watch?v=-_KJZPOYBeA">InkScape Tutorial for Beginners (11 min)</a>
-  #       files:
+  - week_number: 7
+    classes:
+      - topics: Vector Graphics (Workshop)
+        due:
+        - <a href="https://www.youtube.com/watch?v=3NBKRywEbNs">Adobe Illustrator for Beginners (10 min)</a>
+        - <a href="https://www.youtube.com/watch?v=-_KJZPOYBeA">InkScape Tutorial for Beginners (11 min)</a>
+        files:
 
-  #       # - name: Midterm Topics
-  #       #   path: "https://docs.google.com/document/d/1Oavq18khS9szbJ38i6SAMFXLPDmB3xBNQyx6vwgmq9c/edit?usp=sharing"
-  #       #   type: external code
-  #       # - name: SVG Exercise Links
-  #       #   path: /demos/svg-practice/
-  #       #   type: code          
-  #     - topics: Review
-  #       due:
-  #       - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/05.html)"
-  #       files:
-  #       # # - name: "Download: Midterm Website Files"
-  #       # #   path: /assets/files/midterm_review.zip
-  #       # #   type: download
-  #       # # - name: Midterm Practice Final Site
-  #       # #   path: /demos/midterm-review/
-  #       # #   type: code
-  #       # - name: midterm-review-slides.pdf
-  #       #   path: /assets/slides/13_MidtermReview.pdf
-  #       #   type: slides
-  #       # - name: Midterm Topics
-  #       #   path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
-  #       #   type: external code            
-  #       # - name: Midterm Practice Exam
-  #       #   path: /assets/files/midterm-practice.pdf
-  #       #   type: slides
-  #       # - name: Midterm Practice Exam – SOLUTIONS
-  #       #   path: /assets/files/midterm-practice-SOLUTIONS.pdf
-  #       #   type: slides        
-  # - week_number: 8
-  #   classes:
-  #     - topics: Midterm Exam
-  #       due: 
-  #       files:
-  #       - name: 
-  #         path: 
-  #         type: 
-  #     - topics: Design + Accessibility
-  #       due:
-  #       - "Chapter 3: Some Big Concepts You Need to Know" 
-  #       files:
-  #       # - name: accessibility.pdf
-  #       #   path: /assets/slides/14_Accessibility.pdf
-  #       #   type: slides   
+        # - name: Midterm Topics
+        #   path: "https://docs.google.com/document/d/1Oavq18khS9szbJ38i6SAMFXLPDmB3xBNQyx6vwgmq9c/edit?usp=sharing"
+        #   type: external code
+        # - name: SVG Exercise Links
+        #   path: /demos/svg-practice/
+        #   type: code          
+      - topics: Review
+        due:
+        - "Assignment #5 – Vector Graphics"
+        files:
+        # # - name: "Download: Midterm Website Files"
+        # #   path: /assets/files/midterm_review.zip
+        # #   type: download
+        # # - name: Midterm Practice Final Site
+        # #   path: /demos/midterm-review/
+        # #   type: code
+        # - name: midterm-review-slides.pdf
+        #   path: /assets/slides/13_MidtermReview.pdf
+        #   type: slides
+        # - name: Midterm Topics
+        #   path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
+        #   type: external code            
+        # - name: Midterm Practice Exam
+        #   path: /assets/files/midterm-practice.pdf
+        #   type: slides
+        # - name: Midterm Practice Exam – SOLUTIONS
+        #   path: /assets/files/midterm-practice-SOLUTIONS.pdf
+        #   type: slides        
+  - week_number: 8
+    classes:
+      - topics: Midterm Exam
+        due: 
+        files:
+        - name: 
+          path: 
+          type: 
+      - topics: Design + Accessibility
+        due:
+        - "Chapter 3: Some Big Concepts You Need to Know" 
+        files:
+        # - name: accessibility.pdf
+        #   path: /assets/slides/14_Accessibility.pdf
+        #   type: slides   
   # - week_number: 9
   #   classes:
   #     - topics: Page Layout
