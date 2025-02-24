@@ -122,9 +122,9 @@ schedule:
         - name: css-workshop.pdf
           path: https://docs.google.com/presentation/d/1iK2go58PXEAQ5ioLRF2UpwQ_tw69rK5DHydCxxZR2UE/preview
           type: external code
-        # - name: NYC Site – CSS Day 3
-        #   path: /demos-completed/nyc-website-css/
-        #   type: code
+        - name: NYC Site – CSS 
+          path: https://web.us.edusercontent.com/u9sf60lsoe6bmpe8730lfvk52c/index.html
+          type: external code
       - topics: Raster Graphics
         due: 
         - "[Ed Lessons: Photoshop + GIMP](https://edstem.org/us/courses/74285/lessons/129538/slides/728641)"
@@ -163,8 +163,8 @@ schedule:
         #   path: /assets/files/raster-graphics-assets.zip
         #   type: download
         - name: Sleepy Cat Final Site
-          path: /demos-completed/sleepy-cat/
-          type: code
+          path: https://web.us.edusercontent.com/lndlqp4jt9ut4f4m98bkju9o4g/index.html
+          type: external code
         # # - name: Grand Central image with <picture> element
         # #   path: /demos-completed/picture-tag/
         # #   type: code
