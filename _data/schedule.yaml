@@ -177,7 +177,7 @@ schedule:
 
       - topics: Vector Graphics
         due:
-        - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/03.html)"
+        - "[Assignment #4 – Raster Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/04.html)"
         - "[Ed Lessons: XML + SVG Basics](https://edstem.org/us/courses/65705/lessons/116477/slides/646378)"
         - "Chapter 25: SVG"
         # - <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial"> MDN web docs – SVG Tutorial</a>
