@@ -3,9 +3,9 @@
 layout: assignments
 title: "Assignment #5"
 assign-date: Feb 26
-due-date: Mar 3
+due-date: Mar 5
 topic: Vector Graphics
-live: false
+live: true
 
 ---
 
