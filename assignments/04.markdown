@@ -3,7 +3,7 @@
 layout: assignments
 title: "Assignment #4"
 assign-date: Feb 19
-due-date: Feb 24
+due-date: Feb 26
 topic: Raster Graphics
 live: true
 
