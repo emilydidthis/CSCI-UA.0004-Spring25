@@ -184,9 +184,9 @@ schedule:
         # - <a href="https://www.youtube.com/watch?v=lOzSiOIipSM">5 Ways To Remove A Background with GIMP</a>
         # - <a href="https://www.youtube.com/watch?v=WTOFpAfXsSY">How to resize an image in GIMP</a>  
         files:
-        # - name: vector-graphics.pdf
-        #   path: /assets/slides/11_VectorGraphics.pdf
-        #   type: slides
+        - name: vector-graphics.pdf
+          path: https://docs.google.com/presentation/d/10GRxUEFAQ5pElxR5I1F4R_p4rOjCGk2TaYknYmVut_c/preview
+          type: external code
         # - name: "Download: SVG Starter Files"
         #   path: /assets/files/svg-starter-files.zip
         #   type: download
@@ -210,15 +210,12 @@ schedule:
         - <a href="https://www.youtube.com/watch?v=-_KJZPOYBeA">InkScape Tutorial for Beginners (11 min)</a>
         files:
 
-        # - name: Midterm Topics
-        #   path: "https://docs.google.com/document/d/1Oavq18khS9szbJ38i6SAMFXLPDmB3xBNQyx6vwgmq9c/edit?usp=sharing"
-        #   type: external code
-        # - name: SVG Exercise Links
-        #   path: /demos/svg-practice/
-        #   type: code          
+        - name: Midterm Topics
+          path: "https://docs.google.com/document/d/1Oavq18khS9szbJ38i6SAMFXLPDmB3xBNQyx6vwgmq9c/edit?usp=sharing"
+          type: external code     
       - topics: Review
         due:
-        - "Assignment #5 – Vector Graphics"
+        - "[Assignment #5 – Vector Graphics](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/05.html)"
         files:
         # # - name: "Download: Midterm Website Files"
         # #   path: /assets/files/midterm_review.zip
