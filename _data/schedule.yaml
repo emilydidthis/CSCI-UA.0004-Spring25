@@ -229,12 +229,12 @@ schedule:
         # - name: Midterm Topics
         #   path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
         #   type: external code            
-        # - name: Midterm Practice Exam
-        #   path: /assets/files/midterm-practice.pdf
-        #   type: slides
-        # - name: Midterm Practice Exam – SOLUTIONS
-        #   path: /assets/files/midterm-practice-SOLUTIONS.pdf
-        #   type: slides        
+        - name: Midterm Practice Exam
+          path: /assets/files/sp25-midterm-practice.pdf
+          type: download
+        - name: Midterm Practice Exam – SOLUTIONS
+          path: /assets/files/sp25-midterm-practice-SOLUTIONS.pdf
+          type: download        
   - week_number: 8
     classes:
       - topics: Midterm Exam
