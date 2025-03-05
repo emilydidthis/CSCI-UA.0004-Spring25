@@ -223,9 +223,9 @@ schedule:
         # # - name: Midterm Practice Final Site
         # #   path: /demos/midterm-review/
         # #   type: code
-        # - name: midterm-review-slides.pdf
-        #   path: /assets/slides/13_MidtermReview.pdf
-        #   type: slides
+        - name: midterm-review-slides.pdf
+          path: https://docs.google.com/presentation/d/1BmCEGl8cpYQ8K9UUyNSIece5CSdR6ZUK32CJe6QL61A/preview
+          type: external code
         # - name: Midterm Topics
         #   path: "https://brightspace.nyu.edu/d2l/le/lessons/403055/topics/10811029"
         #   type: external code            
