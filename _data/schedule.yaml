@@ -44,7 +44,7 @@ schedule:
           path: https://docs.google.com/presentation/d/18odS2vCXgja234vbLz6mHqCXnvkYyZmsm0KiXdKZFcU/preview
           type: external code
         - name: NYC Site
-          path: https://web.us.edusercontent.com/u9sf60lsoe6bmpe8730lfvk52c/
+          path: https://edstem.org/us/courses/74285/workspaces/p1eqXJO2DuXwn8uyfW52Ln0U8KKsIteI
           type: external code
         # - name: HTML Errors
         #   path: /demos-completed/html-errors.html
@@ -123,7 +123,7 @@ schedule:
           path: https://docs.google.com/presentation/d/1iK2go58PXEAQ5ioLRF2UpwQ_tw69rK5DHydCxxZR2UE/preview
           type: external code
         - name: NYC Site – CSS 
-          path: https://web.us.edusercontent.com/u9sf60lsoe6bmpe8730lfvk52c/index.html
+          path: https://edstem.org/us/courses/74285/workspaces/p1eqXJO2DuXwn8uyfW52Ln0U8KKsIteI
           type: external code
       - topics: Raster Graphics
         due: 
@@ -163,7 +163,7 @@ schedule:
         #   path: /assets/files/raster-graphics-assets.zip
         #   type: download
         - name: Sleepy Cat Final Site
-          path: https://web.us.edusercontent.com/lndlqp4jt9ut4f4m98bkju9o4g/index.html
+          path: https://edstem.org/us/courses/74285/workspaces/ppo9Cb759uzcwlStbqsimhXC4Nzzwu2a
           type: external code
         # # - name: Grand Central image with <picture> element
         # #   path: /demos-completed/picture-tag/
@@ -199,9 +199,9 @@ schedule:
         # - name: SVG Exercise 3
         #   path: /demos-completed/svg-practice/example3.html
         #   type: code
-        # - name: All the ways you can embed SVGs
-        #   path: /demos-completed/svg-practice/embed-svgs.html
-        #   type: code
+        - name: All the ways you can embed SVGs
+          path: https://edstem.org/us/courses/74285/workspaces/pxZGkCfbhVn1JqFMSfBHIDvmQth6S6CX
+          type: external code
   - week_number: 7
     classes:
       - topics: Vector Graphics (Workshop)
@@ -260,18 +260,18 @@ schedule:
         - <a href="https://gridbyexample.com/">Grid By Example</a>
         - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Realizing_common_layouts_using_grids">Realizing common layouts using grids</a>
         files:
-        # - name: page-layout.pdf
-        #   path: /assets/slides/16_PageLayout.pdf
-        #   type: slides
+        - name: page-layout.pdf
+          path: https://docs.google.com/presentation/d/1sYUehrIVCmaCe5fVJ0NZ0pRjZNpaNCFIkfpizr-pSEs/preview
+          type: external code
         # - name: "Download: CSS Grid Practice Files"
         #   path: /assets/files/css-grid.zip
         #   type: download
-        # - name: Login Screen Wireframe
-        #   path: https://www.figma.com/file/G5JqSJrarATG8STj41FgKw/Login-Wireframe?type=design&node-id=0%3A1&mode=design&t=m5edG36DaSSAGhV7-1
-        #   type: external code
-        # - name: Ghibli Website Wireframes
-        #   path: https://www.figma.com/file/yZC2jiue4tOp05AXxokbIp/Ghibli-Wireframes?type=design&node-id=0%3A1&mode=design&t=cQRbHusnqA6Bv5pK-1
-        #   type: external code
+        - name: Login Screen Wireframe
+          path: https://www.figma.com/file/G5JqSJrarATG8STj41FgKw/Login-Wireframe?type=design&node-id=0%3A1&mode=design&t=m5edG36DaSSAGhV7-1
+          type: external code
+        - name: Ghibli Website Wireframes
+          path: https://www.figma.com/file/yZC2jiue4tOp05AXxokbIp/Ghibli-Wireframes?type=design&node-id=0%3A1&mode=design&t=cQRbHusnqA6Bv5pK-1
+          type: external code
         # - name: CSS Grid Exercise 1
         #   path: /demos-completed/css-grid/grid-exercise-1.html
         #   type: code
