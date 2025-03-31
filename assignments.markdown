@@ -46,7 +46,7 @@ Assignments that you turn in should be your own work. It’s fine to talk to oth
 
 {% assign counter = 0 %}
 {% for page in site.pages %}
-    {% if page.layout == "assignments" and counter < 6 %}
+    {% if page.layout == "assignments" and counter < 7 %}
         {% if page.live == true %}
         <h2><a href="{{ page.url | relative_url }}"> {{ page.title }}</a></h2>
         {% else %}

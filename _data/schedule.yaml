@@ -289,85 +289,85 @@ schedule:
       - topics: "*Spring Break*"
 
 
-  # - week_number: 11
-  #   classes:
-  #     - topics: Responsive Design
-  #       due:
-  #       - "[Assignment #6 – Page Layout](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/06.html)" 
-  #       - "Chapter 17: Responsive Web Design"
-  #       - "<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN web docs: Responsive images</a>" 
-  #       files:
-  #       # - name: responsive-design.pdf
-  #       #   path: /assets/slides/16_responsive-design-template.pdf
-  #       #   type: slides 
-  #       # - name: Basic Media Queries
-  #       #   path: /demos-completed/media-query/index.html
-  #       #   type: code 
-  #       # - name: Responsive Raster Images
-  #       #   path: /demos-completed/responsive-images/index.html
-  #       #   type: code 
-  #       # - name: NYC Site – Responsive
-  #       #   path: /demos-completed/nyc-website-css/index.html
-  #       #   type: code 
-  #       # # - name: "Download: Responsive Grid Files"
-  #       # #   path: /assets/files/responsive-grid.zip
-  #       # #   type: download
-  #       # - name: Responsive Grid
-  #       #   path: /demos-completed/responsive-grid/index.html
-  #       #   type: code    
-  #     - topics: Responsive Design (Workshop)
-  #       due:
-  #       files:
+  - week_number: 11
+    classes:
+      - topics: Responsive Design
+        due:
+        - "[Assignment #6 – Page Layout](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/06.html)" 
+        - "Chapter 17: Responsive Web Design"
+        - "<a href='https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images'>MDN web docs: Responsive images</a>" 
+        files:
+        # - name: responsive-design.pdf
+        #   path: /assets/slides/16_responsive-design-template.pdf
+        #   type: slides 
+        # - name: Basic Media Queries
+        #   path: /demos-completed/media-query/index.html
+        #   type: code 
+        # - name: Responsive Raster Images
+        #   path: /demos-completed/responsive-images/index.html
+        #   type: code 
+        # - name: NYC Site – Responsive
+        #   path: /demos-completed/nyc-website-css/index.html
+        #   type: code 
+        # # - name: "Download: Responsive Grid Files"
+        # #   path: /assets/files/responsive-grid.zip
+        # #   type: download
+        # - name: Responsive Grid
+        #   path: /demos-completed/responsive-grid/index.html
+        #   type: code    
+      - topics: Responsive Design (Workshop)
+        due:
+        files:
         
-  # - week_number: 12
-  #   classes:
-  #     - topics: Javascript
-  #       due: 
-  #       - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/07.html)" 
-  #       - "Chapter 21: Introduction to JavaScript"
-  #       files:
-  #       # - name: Javascript_Day01.pdf
-  #       #   path: /assets/slides/20_Javascript_Day1.pdf
-  #       #   type: slides
-  #       # - name: "Download: Javascript Day 1 Files"
-  #       #   path: /assets/files/javascript-day1.zip
-  #       #   type: download
-  #       # - name: "Greeting by time of day"
-  #       #   path: /demos-completed/javascript-day1/greeting/
-  #       #   type: code  
-  #       # - name: "JavaScript basics"
-  #       #   path: /demos-completed/javascript-day1/basics/script.js
-  #       #   type: code  
-  #       # - name: "Class today? [Conditionals]"
-  #       #   path: /demos-completed/javascript-day1/conditionals/
-  #       #   type: code        
-  #     - topics: Javascript
-  #       due:
-  #       - "Chapter 22: Using JavaScript"
-  #       - "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>W3: HTML DOM Events</a>"
-  #       - "<a href='https://www.w3schools.com/css/css3_transitions.asp'>W3: CSS Transitions</a>" 
-  #       files:
-  #       # - name: Javascript_Day02.pdf
-  #       #   path: /assets/slides/21_Javascript_Day2.pdf
-  #       #   type: slides
-  #       # - name: "Download: Javascript Day 2 Files"
-  #       #   path: /assets/files/javascript-day2.zip
-  #       #   type: download
-  #       # - name: "Day or Night"
-  #       #   path: /demos-completed/javascript-day2/day-or-night/
+  - week_number: 12
+    classes:
+      - topics: Javascript
+        due: 
+        - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/07.html)" 
+        - "Chapter 21: Introduction to JavaScript"
+        files:
+        # - name: Javascript_Day01.pdf
+        #   path: /assets/slides/20_Javascript_Day1.pdf
+        #   type: slides
+        # - name: "Download: Javascript Day 1 Files"
+        #   path: /assets/files/javascript-day1.zip
+        #   type: download
+        # - name: "Greeting by time of day"
+        #   path: /demos-completed/javascript-day1/greeting/
+        #   type: code  
+        # - name: "JavaScript basics"
+        #   path: /demos-completed/javascript-day1/basics/script.js
+        #   type: code  
+        # - name: "Class today? [Conditionals]"
+        #   path: /demos-completed/javascript-day1/conditionals/
+        #   type: code        
+      - topics: Javascript
+        due:
+        - "Chapter 22: Using JavaScript"
+        - "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>W3: HTML DOM Events</a>"
+        - "<a href='https://www.w3schools.com/css/css3_transitions.asp'>W3: CSS Transitions</a>" 
+        files:
+        # - name: Javascript_Day02.pdf
+        #   path: /assets/slides/21_Javascript_Day2.pdf
+        #   type: slides
+        # - name: "Download: Javascript Day 2 Files"
+        #   path: /assets/files/javascript-day2.zip
+        #   type: download
+        # - name: "Day or Night"
+        #   path: /demos-completed/javascript-day2/day-or-night/
+        #   type: code
+        # - name: "Changing Text and HTML Content"
+        #   path: /demos-completed/javascript-day2/text-overwrite/
+        #   type: code
+        # - name: "Flip a Coin"
+        #   path: /demos-completed/javascript-day2/flip-a-coin/
+        #   type: code
+  #       # - name: "Airports"
+  #       #   path: /demos-completed/airports/
   #       #   type: code
-  #       # - name: "Changing Text and HTML Content"
-  #       #   path: /demos-completed/javascript-day2/text-overwrite/
-  #       #   type: code
-  #       # - name: "Flip a Coin"
-  #       #   path: /demos-completed/javascript-day2/flip-a-coin/
-  #       #   type: code
-  # #       # - name: "Airports"
-  # #       #   path: /demos-completed/airports/
-  # #       #   type: code
-  # #       # - name: "CSS Transitions"
-  # #       #   path: /demos-completed/css-transitions/
-  # #       #   type: code      
+  #       # - name: "CSS Transitions"
+  #       #   path: /demos-completed/css-transitions/
+  #       #   type: code      
   # - week_number: 13
   #   classes:
   #     - topics: Javascript (Workshop)
