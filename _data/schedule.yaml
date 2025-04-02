@@ -323,7 +323,7 @@ schedule:
     classes:
       - topics: Javascript
         due:
-        - "[Ed Lessons: Javascript Basics]" 
+        - "[Ed Lessons: Javascript Basics](https://edstem.org/us/courses/74285/lessons/135955/slides/766117)" 
         - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/07.html)" 
         - "Chapter 21: Introduction to JavaScript"
         files:
