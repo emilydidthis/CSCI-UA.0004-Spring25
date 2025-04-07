@@ -2,10 +2,10 @@
 
 layout: assignments
 title: "Assignment #8"
-assign-date: 
-due-date: 
+assign-date: Apr 7
+due-date: Apr 16
 topic: JavaScript
-live: false
+live: true
 
 ---
 

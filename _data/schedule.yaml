@@ -327,9 +327,9 @@ schedule:
         - "[Assignment #7 – Responsive Design](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/07.html)" 
         - "Chapter 21: Introduction to JavaScript"
         files:
-        # - name: Javascript_Day01.pdf
-        #   path: /assets/slides/20_Javascript_Day1.pdf
-        #   type: slides
+        - name: javascript-day1.pdf
+          path: https://docs.google.com/presentation/d/1FTCdmX8sUfvnZWKiJ429SzZMDwHEKUICKF7Iu7owpQs/view
+          type: external code
         # - name: "Download: Javascript Day 1 Files"
         #   path: /assets/files/javascript-day1.zip
         #   type: download
@@ -369,41 +369,41 @@ schedule:
   #       # - name: "CSS Transitions"
   #       #   path: /demos-completed/css-transitions/
   #       #   type: code      
-  # - week_number: 13
-  #   classes:
-  #     - topics: Javascript (Workshop)
-  #       due:
-  #       # - "Something"        
-  # #       files:
-  # #       # - name: Javascript_Day03.pdf
-  # #       #   path: /assets/slides/11_Javascript_Day3.pdf
-  # #       #   type: slides
-  # #       # - name: "Download: Javascript Day 3 Files"
-  # #       #   path: /assets/files/javascript-day3.zip
-  # #       #   type: download
-  # #       # - name: "Flip a Coin – Functions + Event Listeners"
-  # #       #   path: /demos/javascript-day3/flip-a-coin/
-  # #       #   type: code
-        
-  # #       # - name: "To Do List"
-  # #       #   path: /demos/javascript-day3/to-do-list/
-  # #       #   type: code      
-  #     - topics: Forms
-  #       due:
-  #       - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
-  #       - "Chapter 9: Forms"
-  #       - "<a href='https://formspree.io/'>Formspree</a>"
-  #       - "<a href='https://www.w3schools.com/html/html_form_input_types.asp'>W3: Input Types</a>"
+  - week_number: 13
+    classes:
+      - topics: Javascript (Workshop)
+        due:
+        # - "Something"        
   #       files:
-  #       # - name: Forms.pdf
-  #       #   path: /assets/slides/23_Forms.pdf
+  #       # - name: Javascript_Day03.pdf
+  #       #   path: /assets/slides/11_Javascript_Day3.pdf
   #       #   type: slides
-  #       # - name: Types of Inputs
-  #       #   path: /demos-completed/form/input-types.html
+  #       # - name: "Download: Javascript Day 3 Files"
+  #       #   path: /assets/files/javascript-day3.zip
+  #       #   type: download
+  #       # - name: "Flip a Coin – Functions + Event Listeners"
+  #       #   path: /demos/javascript-day3/flip-a-coin/
   #       #   type: code
-  #       # - name: Final Form Website
-  #       #   path: /demos-completed/form/index.html
-  #       #   type: code
+        
+  #       # - name: "To Do List"
+  #       #   path: /demos/javascript-day3/to-do-list/
+  #       #   type: code      
+      - topics: Forms
+        due:
+        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
+        - "Chapter 9: Forms"
+        - "<a href='https://formspree.io/'>Formspree</a>"
+        - "<a href='https://www.w3schools.com/html/html_form_input_types.asp'>W3: Input Types</a>"
+        files:
+        # - name: Forms.pdf
+        #   path: /assets/slides/23_Forms.pdf
+        #   type: slides
+        # - name: Types of Inputs
+        #   path: /demos-completed/form/input-types.html
+        #   type: code
+        # - name: Final Form Website
+        #   path: /demos-completed/form/index.html
+        #   type: code
   # - week_number: 14
   #   classes:     
   #     - topics: Web Audio + Video
