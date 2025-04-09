@@ -348,9 +348,9 @@ schedule:
         - "<a href='https://www.w3schools.com/jsref/dom_obj_event.asp'>W3: HTML DOM Events</a>"
         - "<a href='https://www.w3schools.com/css/css3_transitions.asp'>W3: CSS Transitions</a>" 
         files:
-        # - name: Javascript_Day02.pdf
-        #   path: /assets/slides/21_Javascript_Day2.pdf
-        #   type: slides
+        - name: javascript-day2.pdf
+          path: https://docs.google.com/presentation/d/1OopwtNSmyOC0Im8BAfXCy70-MpVm8pQPqJYTVU4mC0k/edit?usp=sharing
+          type: external code
         # - name: "Download: Javascript Day 2 Files"
         #   path: /assets/files/javascript-day2.zip
         #   type: download
