@@ -3,7 +3,7 @@
 layout: assignments
 title: "Assignment #8"
 assign-date: Apr 7
-due-date: Apr 16
+due-date: Apr 21
 topic: JavaScript
 live: true
 

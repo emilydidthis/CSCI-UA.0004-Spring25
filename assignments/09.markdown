@@ -1,10 +1,10 @@
 ---
 layout: assignments
 title: "Assignment #9"
-assign-date: 
-due-date: 
+assign-date: Apr 21
+due-date: May 5
 topic: Final Project
-live: false
+live: true
 ---
 
 ## Final Project

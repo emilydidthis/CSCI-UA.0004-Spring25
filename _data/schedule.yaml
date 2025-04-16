@@ -390,7 +390,6 @@ schedule:
   #       #   type: code      
       - topics: Forms
         due:
-        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
         - "Chapter 9: Forms"
         - "<a href='https://formspree.io/'>Formspree</a>"
         - "<a href='https://www.w3schools.com/html/html_form_input_types.asp'>W3: Input Types</a>"
@@ -404,81 +403,83 @@ schedule:
         # - name: Final Form Website
         #   path: /demos-completed/form/index.html
         #   type: code
-  # - week_number: 14
-  #   classes:     
-  #     - topics: Web Audio + Video
-  #       due:
-  #       - "Chapter 10: Embedded Media"
-  #       - "<a href='http://www.w3schools.com/html/html5_audio.asp'>HTML Audio</a>"
-  #       - "<a href='http://www.w3schools.com/html/html5_video.asp'>HTML Video</a>" 
-  #       - "<a href='https://www.audacityteam.org/'>Audacity open source sound editor</a>"
-  #       - "<a href='https://handbrake.fr/'>HandBrake open source video transcoder</a>" 
-  #       files:
-  #       # - name: AudioVideo.pdf
-  #       #   path: /assets/slides/24_AudioVideo.pdf
-  #       #   type: slides 
-  #       # - name: "Download: Audio Video Files"
-  #       #   path: /assets/files/audio-video.zip
-  #       #   type: download
-  #       # - name: HTML Audio, Video, iframe
-  #       #   path: /demos-completed/audio-video/index.html
-  #       #   type: code
-  #       # - name: Custom Video Player
-  #       #   path: /demos-completed/audio-video/video-player.html
-  #       #   type: code 
-  #       # - name: Mario Soundboard
-  #       #   path: /demos-completed/audio-video/mario-soundboard/
-  #       #   type: code
-  #     - topics: Version Control, Web Hosting + Domain Names
-  #       due:
-  #       - "Chapter 20: Modern Web Development Tools"
-  #       - "<a href='https://github.com/'>Create a Github account<a>"
-  #       - "<a href='https://desktop.github.com/'>Github Desktop<a>"
-  #       - <a href="https://pages.github.com/">GitHub Pages</a>
-  #       # - "<a href='https://github.com/octocat/Spoon-Knife'> Fork Spoon-Knife Repo </a>"
-  #       - "<a href='https://www.markdownguide.org/basic-syntax/.'> Markdown Guide </a>"
-  #       # - <a href="https://cargo.site/">Cargo</a>
-  #       # - <a href="https://glitch.com/">Glitch</a>
-  #       # - <a href="https://www.pair.com/">Pair Networks</a>
-  #       # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
-  #       - <a href="https://analytics.google.com/">Google Analytics</a>
-  #       files:
-  #       # - name: VersionControl_WebHosting.pdf
-  #       #   path: /assets/slides/25_Github_WebHosting.pdf
-  #       #   type: slides
-  #       # - name: Mario Soundboard Repository
-  #       #   path: https://github.com/emilydidthis/mario-soundboard
-  #       #   type: external code
-  # - week_number: 15
-  #   classes:  
-  #     - topics: Web Design Workshop
-  #       due: 
-  #       files:
-  #       # - name: Workshop-FinalExamInfo.pdf
-  #       #   path: /assets/slides/15_Workshop_FinalExamInfo.pdf
-  #       #   type: slides
-  #     - topics: Review
-  #       due: 
-  #       - "[Assignment #9 – Final Project](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html)" 
+  - week_number: 14
+    classes:     
+      - topics: Web Audio + Video
+        due:
+        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
+        - "Chapter 10: Embedded Media"
+        - "<a href='http://www.w3schools.com/html/html5_audio.asp'>HTML Audio</a>"
+        - "<a href='http://www.w3schools.com/html/html5_video.asp'>HTML Video</a>" 
+        - "<a href='https://www.audacityteam.org/'>Audacity open source sound editor</a>"
+        - "<a href='https://handbrake.fr/'>HandBrake open source video transcoder</a>" 
+        files:
+        # - name: AudioVideo.pdf
+        #   path: /assets/slides/24_AudioVideo.pdf
+        #   type: slides 
+        # - name: "Download: Audio Video Files"
+        #   path: /assets/files/audio-video.zip
+        #   type: download
+        # - name: HTML Audio, Video, iframe
+        #   path: /demos-completed/audio-video/index.html
+        #   type: code
+        # - name: Custom Video Player
+        #   path: /demos-completed/audio-video/video-player.html
+        #   type: code 
+        # - name: Mario Soundboard
+        #   path: /demos-completed/audio-video/mario-soundboard/
+        #   type: code
+      - topics: Version Control, Web Hosting + Domain Names
+        due:
+        - "Chapter 20: Modern Web Development Tools"
+        - "<a href='https://github.com/'>Create a Github account<a>"
+        - "<a href='https://desktop.github.com/'>Github Desktop<a>"
+        - <a href="https://pages.github.com/">GitHub Pages</a>
+        # - "<a href='https://github.com/octocat/Spoon-Knife'> Fork Spoon-Knife Repo </a>"
+        - "<a href='https://www.markdownguide.org/basic-syntax/.'> Markdown Guide </a>"
+        # - <a href="https://cargo.site/">Cargo</a>
+        # - <a href="https://glitch.com/">Glitch</a>
+        # - <a href="https://www.pair.com/">Pair Networks</a>
+        # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
+        - <a href="https://analytics.google.com/">Google Analytics</a>
+        files:
+        # - name: VersionControl_WebHosting.pdf
+        #   path: /assets/slides/25_Github_WebHosting.pdf
+        #   type: slides
+        # - name: Mario Soundboard Repository
+        #   path: https://github.com/emilydidthis/mario-soundboard
+        #   type: external code
+  - week_number: 15
+    classes:  
+      - topics: Web Design Workshop
+        due: 
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Wireframes and 100 words due"
+        files:
+        # - name: Workshop-FinalExamInfo.pdf
+        #   path: /assets/slides/15_Workshop_FinalExamInfo.pdf
+        #   type: slides
+      - topics: Review
+        due: 
 
-  #       files:
-  #       # - name: FinalReview.pdf
-  #       #   path: /assets/slides/30_FinalReview.pdf
-  #       #   type: slides 
-  #       # # - name: "Download: Review Site Files"
-  #       # #   path: /assets/files/final-review.zip
-  #       # #   type: download
-  #       # - name: "Practice Final – MC"
-  #       #   path: /assets/files/web-mock-final-sp24.pdf
-  #       #   type: slides
-  #       # - name: "Practice Final — MC – ANSWERS"
-  #       #   path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
-  #       #   type: slides
-  #       # - name: "[ed] Recreate Website Practice"
-  #       #   path: https://edstem.org/us/courses/65705/lessons/124122/slides/688966
-  #       #   type: external code   
-  # - week_number: 16
-  #   classes:            
-  #     - topics: Final Exam
-  #       due: 
-  #       files:
+        files:
+        # - name: FinalReview.pdf
+        #   path: /assets/slides/30_FinalReview.pdf
+        #   type: slides 
+        # # - name: "Download: Review Site Files"
+        # #   path: /assets/files/final-review.zip
+        # #   type: download
+        # - name: "Practice Final – MC"
+        #   path: /assets/files/web-mock-final-sp24.pdf
+        #   type: slides
+        # - name: "Practice Final — MC – ANSWERS"
+        #   path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
+        #   type: slides
+        # - name: "[ed] Recreate Website Practice"
+        #   path: https://edstem.org/us/courses/65705/lessons/124122/slides/688966
+        #   type: external code   
+  - week_number: 16
+    classes:            
+      - topics: Final Exam
+        due: 
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Final project due"
+        files:
