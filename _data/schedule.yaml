@@ -394,9 +394,9 @@ schedule:
         - "<a href='https://formspree.io/'>Formspree</a>"
         - "<a href='https://www.w3schools.com/html/html_form_input_types.asp'>W3: Input Types</a>"
         files:
-        # - name: Forms.pdf
-        #   path: /assets/slides/23_Forms.pdf
-        #   type: slides
+        - name: Forms.pdf
+          path: https://docs.google.com/presentation/d/10LhCjEbAaGJl7RJyBBm1vksflfIcHEzXOC_fTOLyIsU/preview
+          type: external code
         # - name: Types of Inputs
         #   path: /demos-completed/form/input-types.html
         #   type: code
@@ -407,16 +407,16 @@ schedule:
     classes:     
       - topics: Web Audio + Video
         due:
-        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/08.html)" 
+        - "[Assignment #8 – Javascript](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/08.html)" 
         - "Chapter 10: Embedded Media"
         - "<a href='http://www.w3schools.com/html/html5_audio.asp'>HTML Audio</a>"
         - "<a href='http://www.w3schools.com/html/html5_video.asp'>HTML Video</a>" 
         - "<a href='https://www.audacityteam.org/'>Audacity open source sound editor</a>"
         - "<a href='https://handbrake.fr/'>HandBrake open source video transcoder</a>" 
         files:
-        # - name: AudioVideo.pdf
-        #   path: /assets/slides/24_AudioVideo.pdf
-        #   type: slides 
+        - name: AudioVideo.pdf
+          path: https://docs.google.com/presentation/d/1kzLoQsrqYu3GqEPRHb-tizf9KrG7UjcE-nmCWE9OnRI/preview
+          type: external code 
         # - name: "Download: Audio Video Files"
         #   path: /assets/files/audio-video.zip
         #   type: download
@@ -453,7 +453,7 @@ schedule:
     classes:  
       - topics: Web Design Workshop
         due: 
-        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Wireframes and 100 words due"
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/09.html): Wireframes and 100 words due"
         files:
         # - name: Workshop-FinalExamInfo.pdf
         #   path: /assets/slides/15_Workshop_FinalExamInfo.pdf
@@ -481,5 +481,5 @@ schedule:
     classes:            
       - topics: Final Exam
         due: 
-        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Final project due"
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/09.html): Final project due"
         files:
