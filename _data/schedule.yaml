@@ -443,9 +443,12 @@ schedule:
         # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
         - <a href="https://analytics.google.com/">Google Analytics</a>
         files:
-        # - name: VersionControl_WebHosting.pdf
-        #   path: /assets/slides/25_Github_WebHosting.pdf
-        #   type: slides
+        - name: version-control-web-hosting.pdf
+          path: https://docs.google.com/presentation/d/1kNvKwtQ5MAa9Lm81yKOm-oSbSe1-dok5HILhfz3hGSM/preview
+          type: external code
+        - name: "Download: Mario Soundboard Files"
+          path: /assets/files/mario-soundboard.zip
+          type: download
         # - name: Mario Soundboard Repository
         #   path: https://github.com/emilydidthis/mario-soundboard
         #   type: external code
@@ -453,7 +456,7 @@ schedule:
     classes:  
       - topics: Web Design Workshop
         due: 
-        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Wireframes and 100 words due"
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/09.html): Wireframes and 100 words due"
         files:
         # - name: Workshop-FinalExamInfo.pdf
         #   path: /assets/slides/15_Workshop_FinalExamInfo.pdf
@@ -468,18 +471,21 @@ schedule:
         # # - name: "Download: Review Site Files"
         # #   path: /assets/files/final-review.zip
         # #   type: download
-        # - name: "Practice Final – MC"
-        #   path: /assets/files/web-mock-final-sp24.pdf
-        #   type: slides
-        # - name: "Practice Final — MC – ANSWERS"
-        #   path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
-        #   type: slides
-        # - name: "[ed] Recreate Website Practice"
-        #   path: https://edstem.org/us/courses/65705/lessons/124122/slides/688966
-        #   type: external code   
+        - name: "Final Exam Study Questions"
+          path: https://docs.google.com/document/d/1s7p02_uhjIqu92iWlzjdmRk47kmPOFnEaDCMGrlEZtQ/edit?usp=sharing
+          type: external code
+        - name: "Practice Final – MC"
+          path: /assets/files/web-mock-final-sp24.pdf
+          type: code
+        - name: "Practice Final — MC – ANSWERS"
+          path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
+          type: code
+        - name: "[ed] Recreate Website Practice"
+          path: https://edstem.org/us/courses/74285/lessons/137302/slides/773570
+          type: external code   
   - week_number: 16
     classes:            
       - topics: Final Exam
         due: 
-        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Fall24/assignments/09.html): Final project due"
+        - "[Assignment #9](https://emilydidthis.github.io/CSCI-UA.0004-Spring25/assignments/09.html): Final project due"
         files:
