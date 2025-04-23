@@ -438,7 +438,7 @@ schedule:
         # - "<a href='https://github.com/octocat/Spoon-Knife'> Fork Spoon-Knife Repo </a>"
         - "<a href='https://www.markdownguide.org/basic-syntax/.'> Markdown Guide </a>"
         # - <a href="https://cargo.site/">Cargo</a>
-        # - <a href="https://glitch.com/">Glitch</a>
+        - <a href="https://glitch.com/">Glitch</a>
         # - <a href="https://www.pair.com/">Pair Networks</a>
         # - <a href="https://reclaimhosting.com/">Reclaim Hosting</a>
         - <a href="https://analytics.google.com/">Google Analytics</a>
