@@ -478,7 +478,7 @@ schedule:
           path: /assets/files/web-mock-final-sp24.pdf
           type: code
         - name: "Practice Final — MC – ANSWERS"
-          path: /assets/files/web-mock-final-sp24-ANSWERS.pdf
+          path: /assets/files/web-mock-final-sp25-ANSWERS.pdf
           type: code
         - name: "[ed] Recreate Website Practice"
           path: https://edstem.org/us/courses/74285/lessons/137302/slides/773570
