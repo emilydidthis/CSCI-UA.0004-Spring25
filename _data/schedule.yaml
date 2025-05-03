@@ -464,6 +464,7 @@ schedule:
       - topics: Review
         due: 
         - "[Code Interpretation Practice](https://docs.google.com/presentation/d/1X4zSTGyLzO_hDsmcSvDjKnsRUJOIzRjN2chzR6JFF8c/preview)"
+        - "[Code Interpretation Practice – SOLUTIONS](https://docs.google.com/presentation/d/1UwSMk71wzVNJAb-dxo6nydNr99kWqpJEiVcIruY2O3U/preview)"
 
         files:
         # - name: FinalReview.pdf
